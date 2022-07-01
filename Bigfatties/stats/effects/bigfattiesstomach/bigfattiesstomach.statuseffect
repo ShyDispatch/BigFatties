@@ -1,0 +1,9 @@
+{
+	"name": "bigfattiesstomach",
+	"defaultDuration": 100,
+	"scripts": [
+		"bigfattiesstomach.lua"
+	],
+	"label": "Stomach Capacity",
+	"icon": "/interface/statuses/stomach.png"
+}

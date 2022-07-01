@@ -1,0 +1,9 @@
+{
+  "name" : "engorged",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+    "scripts" : [
+    "engorged.lua"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfsoba",
+  "rarity" : "Common",
+  "price" : 160,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfsoba.png",
+  "description" : "A fresh bowl, the best of buckwheat flour.",
+  "shortdescription" : "Soba Noodles",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfsoba" ]
+}

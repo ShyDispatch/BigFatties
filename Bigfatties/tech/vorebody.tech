@@ -1,0 +1,11 @@
+{
+  "name" : "vorebody",
+  "type" : "body",
+
+  "scripts" : ["bigfattiestech.lua"],
+
+  "description" : "You've been eaten!",
+  "shortDescription" : "Eaten",
+  "rarity" : "Essential",
+  "icon" : "/interface/inventory/techdisabled.png"
+}

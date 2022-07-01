@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfdoublemeatwich",
+  "rarity" : "Common",
+  "price" : 345,
+  "category" : "preparedFood",
+  "inventoryIcon" : "meatwichdouble.png",
+  "description" : "All this meat is way too much for normal folk. You aren't one of them.",
+  "shortdescription" : "Double Meatwich",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 40
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfdoublemeatwich" ]
+}

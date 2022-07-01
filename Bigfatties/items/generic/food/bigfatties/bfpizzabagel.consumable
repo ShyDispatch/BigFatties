@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfpizzabagel",
+  "rarity" : "Common",
+  "price" : 175,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfpizzabagel.png",
+  "description" : "A small treat to satiate your hunger.",
+  "shortdescription" : "Pizza Bagel",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfpizzabagel" ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "bloatcolavintage",
+  "rarity" : "Common",
+  "price" : 120,
+  "category" : "drink",
+  "inventoryIcon" : "bloatcolavintage.png",
+  "description" : "A refreshing bottle of bloat-cola. A bit old but certainly not flat.",
+  "shortdescription" : "Bloat-Cola Classic",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "bigfattiesratebloatfast",
+        "duration" : 5
+    },
+    {
+        "effect" : "bigfattiesbloat",
+        "duration" : 35
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

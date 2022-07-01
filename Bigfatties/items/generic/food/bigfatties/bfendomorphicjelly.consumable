@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfendomorphicjelly",
+  "rarity" : "Common",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfendomorphicjelly.png",
+  "description" : "A slime based dessert. Eyeball free. ",
+  "shortdescription" : "Endomorphic Jelly",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

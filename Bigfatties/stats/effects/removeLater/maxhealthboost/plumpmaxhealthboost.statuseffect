@@ -1,0 +1,8 @@
+{
+  "name" : "plumpmaxhealthboost",
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "maxhealthboost_remove.lua"
+  ]
+}

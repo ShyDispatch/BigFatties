@@ -1,0 +1,18 @@
+{
+  "itemName": "lactaid",
+  "price": 1800,
+  "rarity": "rare",
+  "category": "medicine",
+  "inventoryIcon": "lactaid.png",
+  "description": "A single-use stim that promotes natural lactation.",
+  "shortdescription": "LactAid Stim",
+  "maxStack": 1,
+  "effects": [[
+      "lactaid",
+      "lactatingslow"
+  ]],
+  "emote": "",
+  "emitters": [
+    "stimuse"
+  ]
+}

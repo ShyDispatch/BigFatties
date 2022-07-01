@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfsapmilk",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "bfsapmilk.png",
+  "description" : "A type of milky sap from sentient plant folks. Surprisingly addicting.",
+  "shortdescription" : "Sap Milk",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "emitters" : [ "drinking" ]
+}

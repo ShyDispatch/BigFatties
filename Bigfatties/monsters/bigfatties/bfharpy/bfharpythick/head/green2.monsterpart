@@ -1,0 +1,9 @@
+{
+  "name" : "greenhead2",
+  "category" : "bfharpythickgreen",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head2.png"
+  }
+}

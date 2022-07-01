@@ -1,0 +1,25 @@
+{
+  "projectileName" : "needlerfatthorns",
+  "physics" : "arrow",
+  "image" : "needlerfattythorns.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 8,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_arrow.ogg"
+      ]
+    }
+  ],
+  "statusEffects" : [
+    {"effect": "bigfattiesrategainslow", "duration": 3},
+    {"effect": "bigfattiesratebloatfast", "duration": 3}
+  ],
+  "power" : 15.0,
+  "speed" : 100,
+  "damageKind" : "fat"
+}

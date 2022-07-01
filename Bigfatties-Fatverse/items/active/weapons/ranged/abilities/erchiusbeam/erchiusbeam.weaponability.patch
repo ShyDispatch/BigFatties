@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/ability/damageConfig/damageSourceKind",
+    "value" : "fatplasma"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/damageConfig/statusEffects/-",
+    "value" : {"effect": "bigfattiesbloat", "duration": 20}
+  }
+]

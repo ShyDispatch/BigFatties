@@ -1,0 +1,11 @@
+[
+	{
+			"op": "add",
+			"path": "/items/bigfatties:infusion",
+			"value": {
+				"label": "Infusion Table",
+				"icon": "/interface/scripted/bigfatties/infusion/icon.png",
+				"action": ["ui", "bigfatties:infusion"]
+			}
+		}
+]

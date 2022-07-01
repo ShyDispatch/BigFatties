@@ -1,0 +1,37 @@
+[
+  {
+    "op" : "add",
+    "path" : "/animationCustom/particleEmitters/fatSwordCharge",
+    "value" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "fatswoosh1"},
+        { "particle" : "fatswoosh2"},
+        { "particle" : "fatswoosh3"}
+      ]
+    }
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisoncharge",
+    "path" : "/animationCustom/sounds/fatcharge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonfullwindup",
+    "path" : "/animationCustom/sounds/fatfullwindup"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonfull",
+    "path" : "/animationCustom/sounds/fatfull"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "damageConfig" : { "statusEffects" : [ { "effect": "bigfattiesrategainslow", "duration": 30 }, { "effect": "bigfattiesratebloatfast", "duration": 30 } ] } }
+  }
+]

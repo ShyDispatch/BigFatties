@@ -1,0 +1,22 @@
+{
+  "projectileName" : "fatplasma",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "fatplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 150,
+  "supportsProcessing" : true,
+  "emitters" : [ "fatplasma" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [105, 65, 72],
+  "damageKind" : "fatplasmabullet"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "goldencola" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bloatcola" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "hylotldandelionrootpop" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "whalemilk" }
+  }
+]

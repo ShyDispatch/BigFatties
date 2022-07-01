@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfqueenburger",
+  "rarity" : "Common",
+  "price" : 1700,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfqueenburger.png",
+  "description" : "A real royal meal to fill your stomach.",
+  "shortdescription" : "Queen Burger",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 280
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "doublegreaseburger" ]
+}

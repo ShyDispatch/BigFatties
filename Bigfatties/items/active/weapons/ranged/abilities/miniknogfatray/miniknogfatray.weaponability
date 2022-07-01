@@ -1,0 +1,69 @@
+{
+  "ability" : {
+    "name" : "Miniknog-Fat-Ray",
+    "type" : "miniknogfatray",
+    "scripts" : ["/items/active/weapons/ranged/abilities/fatray/fatray.lua"],
+    "class" : "BeamFire",
+
+    "fireTime" : 0.2,
+    "baseDps" : 5.0,
+    "energyUsage" : 5,
+
+    "damageConfig" : {
+      "statusEffects" : [
+  		  "fatray"
+  	  ],
+      "damageSourceKind" : "plasma",
+      "knockback" : 0
+    },
+
+    "beamLength" : 25,
+
+    "beamTransitionTime" : 0.1,
+    "beamTransitionFrames" : 4,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "startSegmentImage" : "/items/active/weapons/ranged/abilities/miniknogfatray/beam.png:<beamFrame>",
+      "segmentImage" : "/items/active/weapons/ranged/abilities/miniknogfatray/beam.png:<beamFrame>",
+      "endSegmentImage" : "/items/active/weapons/ranged/abilities/miniknogfatray/beam.png:<beamFrame>?flipx",
+      "segmentSize" : 0.12,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 0.125,
+        "amplitude" : 0.25,
+        "movement" : -1
+      },
+      "fullbright" : true
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

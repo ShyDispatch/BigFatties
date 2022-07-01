@@ -1,0 +1,5 @@
+{
+"input" : [{ "item" : "jumpsuitchest", "count" : 1 } ],
+"output" : { "item" : "fattyjumpsuitchest", "count" : 1 },
+"groups" : [ "mod", "weightscale", "fattyclothes" ]
+}

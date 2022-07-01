@@ -1,0 +1,21 @@
+{
+  "itemName" : "bficecreamsandwich",
+  "rarity" : "Common",
+  "price" : 195,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bficecreamsandwich.png",
+  "description" : "Nothing beats the sandwich in name, cold treat.",
+  "shortdescription" : "Ice Cream Sandwich",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

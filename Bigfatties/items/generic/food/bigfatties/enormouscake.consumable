@@ -1,0 +1,26 @@
+{
+  "itemName" : "enormouscake",
+  "rarity" : "Legendary",
+  "price" : 925,
+  "category" : "preparedFood",
+  "inventoryIcon" : "enormouscake.png",
+  "description" : "A cake so large, eating this whole thing will leave you stuffed and sluggish.",
+  "shortdescription" : "Enourmous Cake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 2800
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 3200
+    }
+  ] ],
+  "foodValue": 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "enormouscake" ]
+}

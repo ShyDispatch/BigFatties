@@ -1,0 +1,10 @@
+{
+	"name": "bigfattiesliquid",
+	"effectConfig": {
+		"foodType": "liquid"
+	},
+	"defaultDuration": 1,
+	"scripts": [
+		"bigfattieseat.lua"
+	]
+}

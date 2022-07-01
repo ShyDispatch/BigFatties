@@ -1,0 +1,7 @@
+{
+	"name": "bigfattiesmilk",
+	"defaultDuration": 1,
+	"scripts": [
+		"bigfattiesmilk.lua"
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "doublegreaseburger",
+  "rarity" : "Common",
+  "price" : 345,
+  "category" : "preparedFood",
+  "inventoryIcon" : "greaseburgerdouble.png",
+  "description" : "An even greater burger to absolutely stuff your gut with meat and grease.",
+  "shortdescription" : "Double Greaseburger",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "doublegreaseburger" ]
+}

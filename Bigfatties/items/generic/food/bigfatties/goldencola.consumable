@@ -1,0 +1,18 @@
+{
+  "itemName" : "goldencola",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "drink",
+  "inventoryIcon" : "goldencola.png",
+  "description" : "A refreshing bottle of Super Fats Cola.",
+  "shortdescription" : "Super Fats Cola",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue": 10,
+  "emitters" : [ "drinking" ]
+}

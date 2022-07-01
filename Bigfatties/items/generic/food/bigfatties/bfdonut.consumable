@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfdonut",
+  "rarity" : "Common",
+  "price" : 340,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfdonut.png",
+  "description" : "The most basic donut, always a good treat.",
+  "shortdescription" : "Classic Donut",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfdonut" ]
+}

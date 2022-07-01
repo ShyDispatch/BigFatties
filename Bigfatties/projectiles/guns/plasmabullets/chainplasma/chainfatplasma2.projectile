@@ -1,0 +1,27 @@
+{
+  "projectileName" : "chainfatplasma2",
+  "physics" : "illusion",
+  "damageKindImage" : "icon.png",
+  "image" : "fatplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 100,
+  "supportsProcessing" : true,
+  "emitters" : [ "fatplasma" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+    {"effect": "bigfattiesratebloat", "duration": 10},
+    {"effect": "bigfattiesrategain", "duration": 10}
+  ],
+  "lightColor" : [105, 65, 72],
+  "damageKind" : "fatplasma",
+  "piercing" : true,
+
+  "scripts" : [ "/scripts/projectiles/chainbullet.lua" ]
+}

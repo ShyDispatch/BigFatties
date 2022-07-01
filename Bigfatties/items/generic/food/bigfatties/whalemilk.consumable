@@ -1,0 +1,22 @@
+{
+  "itemName" : "whalemilk",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "whalemilk.png",
+  "description" : "Not actually from a whale. But of something of equal size. It's more refreshing than any other milk.",
+  "shortdescription" : "Whale Milk",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "emitters" : [ "drinking" ]
+}

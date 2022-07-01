@@ -1,0 +1,9 @@
+{
+  "name" : "bfnicecream",
+  "category" : "bfnicecream",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "bfnicecream.png"
+  }
+}

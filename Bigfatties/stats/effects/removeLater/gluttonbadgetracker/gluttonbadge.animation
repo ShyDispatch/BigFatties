@@ -1,0 +1,6 @@
+{
+  "sounds" : {
+    "digest" : [ "/sfx/bigfatties/digesting/digesting1.ogg", "/sfx/bigfatties/digesting/digesting2.ogg", "/sfx/bigfatties/digesting/digesting3.ogg", "/sfx/bigfatties/digesting/digesting4.ogg", "/sfx/bigfatties/digesting/digesting5.ogg", "/sfx/bigfatties/digesting/digesting6.ogg", "/sfx/bigfatties/digesting/digesting7.ogg" ],
+	"swallow": [ "/sfx/humanoid/drink.ogg" ]
+  }
+}

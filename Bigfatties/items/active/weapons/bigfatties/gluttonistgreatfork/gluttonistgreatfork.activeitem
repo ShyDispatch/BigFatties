@@ -1,0 +1,53 @@
+{
+  "itemName" : "gluttonistgreatfork",
+  "price" : 2500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "^gray;Floran Gluttonists use forks like this to slay and eat monsters at once.",
+  "shortdescription" : "Gluttonist's Greatfork",
+  "tooltipKind" : "bfsword",
+  "tooltipFields" : {"damageKindImage" : "/interface/elements/fat.png"},
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","upgradeableWeapon"],
+
+  "inventoryIcon" : "gluttonistgreatfork.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "gluttonistgreatfork.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalTravelSlash" : ["/sfx/melee/ixodoomclaw_web2.ogg"],
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 7.5
+  },
+
+"altAbilityType" : "bfmeatshot",
+
+
+  "builder" : "/items/buildscripts/buildbfunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "gluttonistgreatfork.png",
+    "animationParts" : {
+      "blade" : "gluttonistgreatfork.png"
+    },
+    "shortdescription" : "Gluttonist's Greatfork ^yellow;^reset;"
+  }
+}

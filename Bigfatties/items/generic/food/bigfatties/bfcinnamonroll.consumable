@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfcinnamonroll",
+  "rarity" : "Common",
+  "price" : 325,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfcinnamonroll.png",
+  "description" : "A sweet and delicious glazed cinnamon roll.",
+  "shortdescription" : "Cinnamon Roll",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 315
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

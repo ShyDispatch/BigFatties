@@ -1,0 +1,13 @@
+{
+  "projectileName" : "fatplasmaexplosion",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "damageKindImage" : "icon.png",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fatexplosionknockback.config"
+    }
+  ],
+  "damageKind" : "fatplasma",
+  "timeToLive" : 0
+}

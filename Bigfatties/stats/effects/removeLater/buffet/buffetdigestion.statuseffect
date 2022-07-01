@@ -1,0 +1,9 @@
+{
+  "name" : "buffetdigestion",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+    "scripts" : [
+    "buffetdigestion.lua"
+  ]
+}

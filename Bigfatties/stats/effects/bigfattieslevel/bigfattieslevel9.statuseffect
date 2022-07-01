@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel9",
+	"effectConfig": {
+		"level": 9
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Blob",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel9.png"
+}

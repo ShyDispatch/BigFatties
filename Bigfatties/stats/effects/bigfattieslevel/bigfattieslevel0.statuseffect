@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel0",
+	"effectConfig": {
+		"level": 0
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Regular",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel0.png"
+}

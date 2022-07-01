@@ -1,0 +1,24 @@
+{
+  "kind" : "bferchiussludge",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "bferchiussludge" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

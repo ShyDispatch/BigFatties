@@ -1,0 +1,9 @@
+{
+	"name": "bigfattiesimmobile",
+	"scripts": [
+		"bigfattiessize.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Immobile",
+	"icon": "/interface/statuses/bigfattiessize/bigfattiesimmobile.png"
+}

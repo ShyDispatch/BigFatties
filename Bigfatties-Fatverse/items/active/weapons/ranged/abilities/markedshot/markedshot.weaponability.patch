@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "projectileType" : "chainfatplasma" }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfchocoglazeddonut",
+  "rarity" : "Common",
+  "price" : 440,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfchocoglazeddonut.png",
+  "description" : "A sweet, sticky treat that sticks to your fingers to lick clean.",
+  "shortdescription" : "Chocolate Glazed Donut",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfchocoglazeddonut" ]
+}

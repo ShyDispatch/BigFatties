@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "kelp", "count" : 5 },
+    { "item" : "rice", "count" : 3 },
+    { "item" : "rawfish", "count" : 3 }
+  ],
+  "output" : { "item" : "plumpsushi", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

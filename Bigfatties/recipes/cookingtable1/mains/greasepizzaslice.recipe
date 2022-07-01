@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "greasepizza", "count" : 1 }
+  ],
+  "output" : { "item" : "greasepizzaslice", "count" : 12 },
+  "groups" : [ "craftingfood", "mains" ]
+}

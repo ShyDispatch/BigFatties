@@ -1,0 +1,71 @@
+{
+  "objectName" : "fattiesoddities",
+  "colonyTags" : ["outpost","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "Not recognized as a merchant, this Agaran sells items not from this universe. Literally.",
+  "shortdescription" : "Unusual Oddities",
+  "race" : "agaran",
+  "printable" : false,
+
+  "apexDescription" : "This Agaran appears to be stuck. And offering oddities I've never seen.",
+  "avianDescription" : "So many items. I wonder where she gets them from her position.",
+  "floranDescription" : "Floran sees lotsss of itemss. Floran excited.",
+  "glitchDescription" : "Impressed. I feel as though what's being sold.",
+  "humanDescription" : "It's like I'm being sold items from another universe!",
+  "hylotlDescription" : "I wouldn't normally qualify this as a merchant. But the items on sale seem truly unique.",
+  "novakidDescription" : "This place seems to stock crazy, out there things. That's relatable.",
+  "throgDescription" : "Not sure what the deal is, but the stock on sale is breaking all four walls.",  
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Unusual Oddities",
+        "subtitle" : " ^#b9b5b2;Multiverse Objects!",
+        "icon" : {
+          "file" : "/interface/crafting/fattiesoddities.png"
+        }
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.1,
+    "items" : [ 	    	  	   	      	  
+      { "item" : "howapexgetfat-codex" },	  
+      { "item" : "howaviansgetfat-codex" },	
+      { "item" : "howfloransgetfat-codex" },	
+      { "item" : "howglitchgetfat-codex" },	
+      { "item" : "fatghost-codex" },		  
+      { "item" : "bananapudding-codex" },		  
+      { "item" : "mootant-codex" },	  
+      { "item" : "townhungry-codex" },		  
+      { "item" : "florfeast-codex" },		  
+      { "item" : "fattemple-codex" }	  
+    ]
+  },	
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "fattiesoddities.png:<color>.<frame>", "fullbright" : true }, { "image" : "fattiesodditieslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "frames" : 37,
+      "animationCycle" : 4.0,
+      "questIndicatorPosition" : [1.3, -4.5],
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [-6, 0], [-5, 0], [-4, 0], [-3, 0], [-2, 0],
+        [-6, 1], [-5, 1], [-4, 1], [-3, 1], [-2, 1],
+        [-6, 2], [-5, 2], [-4, 2], [-3, 2], [-2, 2],
+        [-5, 3], [-4, 3], [-3, 3]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

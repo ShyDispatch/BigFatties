@@ -1,0 +1,29 @@
+{
+  "kind" : "largefatcloud",
+  "definition" : {
+    "duration" : 0.03,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "largefatcloud2", "largefirecloud2", "largefatcloud2", "largefirecloud2", "largefatcloud2", "largefirecloud2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "largefatcloud1", "largefatcloud2", "largefirecloud2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "largefirecloud4", "largefirecloud4", "largefirecloud4", "largefirecloud4", "largefirecloud4", "largefirecloud4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

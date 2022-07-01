@@ -1,0 +1,86 @@
+{
+  "itemName" : "ringfat",
+  "price" : 80000,
+  "inventoryIcon" : "ringfaticon.png",
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "toy",
+  "itemTags" : ["toy"],
+  "description" : "Perfect for getting in shape at any time.",
+  "shortdescription" : "Ring Fat",
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "ringfat.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      }
+    }
+  },
+
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.5, 0.125],
+
+  "scripts" : ["ringfat.lua"],
+
+  "elementalType" : "water",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2.5,
+    "baseDps" : 0,
+    "energyUsage" : 0,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : "squirt",
+    "projectileParameters" : {
+      "speed" : 40
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

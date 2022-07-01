@@ -1,0 +1,9 @@
+{
+  "name" : "body6",
+  "category" : "bfharpythickturquoise",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body6.png"
+  }
+}

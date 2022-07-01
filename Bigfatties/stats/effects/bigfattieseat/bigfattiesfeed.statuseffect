@@ -1,0 +1,7 @@
+{
+	"name": "bigfattiesfeed",
+	"defaultDuration": 1,
+	"scripts": [
+		"bigfattieseat.lua"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "bigfattiesrategainslow",
+	"effectConfig": {
+		"type": "gainWeight",
+		"rate": 1
+	},
+	"defaultDuration": 5,
+	"scripts": [
+		"bigfattiesrate.lua"
+	]
+}

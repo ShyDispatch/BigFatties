@@ -1,0 +1,10 @@
+{
+  "itemName" : "bfliquidjelly",
+  "rarity" : "Rare",
+  "category" : "liquid",
+  "inventoryIcon" : "bfjellyicon.png",
+  "shortdescription" : "Jelly",
+  "description" : "A slimey liquid.",
+
+  "liquid" : "jellyliquid"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "bigfattieschubster",
+	"scripts": [
+		"bigfattiessize.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Chubster",
+	"icon": "/interface/statuses/bigfattiessize/bigfattieschubster.png"
+}

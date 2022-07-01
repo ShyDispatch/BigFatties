@@ -1,0 +1,25 @@
+{
+  "itemName" : "bfmagicpudding",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfmagicpudding.png",
+  "description" : "Pudding that wobbles on its own.",
+  "shortdescription" : "Magic Pudding",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 500
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

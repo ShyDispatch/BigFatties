@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/fattiesbar",
+		"value": {
+			"primaryDungeon": "fattiesbar",
+			"threatLevel": 1,
+			"gravity": 80,
+			"worldSize": [2000, 2000],
+			"dungeonBaseHeight": 1000,
+			"ambientLightLevel": [141, 120, 169],
+			"ambientNoises": "/sfx/environmental/fattiesbar.ogg",
+			"musicTrack": "/music/the-peacekeepers.ogg",
+			"biome": "fattiesbar"
+		}
+	}
+]

@@ -1,0 +1,11 @@
+{
+  "name" : "vorehead",
+  "type" : "head",
+
+  "scripts" : ["bigfattiestech.lua"],
+
+  "description" : "You've been eaten!",
+  "shortDescription" : "Eaten",
+  "rarity" : "Essential",
+  "icon" : "/interface/inventory/techdisabled.png"
+}

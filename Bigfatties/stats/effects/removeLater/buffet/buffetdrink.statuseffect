@@ -1,0 +1,9 @@
+{
+  "name" : "buffetdrink",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+    "scripts" : [
+    "buffetdrink.lua"
+  ]
+}

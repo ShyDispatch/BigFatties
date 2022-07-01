@@ -1,0 +1,29 @@
+{
+  "kind" : "barrierfat",
+  "definition" : {
+    "duration" : 1.9,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "fatswoosh1", "fatswoosh2", "fireswoosh2", "fatswoosh2", "fireswoosh2", "fatswoosh1", "fatswoosh2", "fireswoosh2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "fatswoosh1", "fatswoosh2", "fireswoosh2", "fatswoosh2", "fireswoosh2", "fatswoosh2", "fireswoosh2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

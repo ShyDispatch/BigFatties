@@ -1,0 +1,30 @@
+{
+  "itemName" : "bfchocolateballoon",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "price" : 10,  
+  "inventoryIcon" : "bfchocolateballoonicon.png",
+  "image" : "bfchocolateballoon.png",
+  "shortdescription" : "Chocolate Balloon",
+  "description" : "A balloon filled up with chocolate.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "bfchocolateballoon",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

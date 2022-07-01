@@ -1,0 +1,11 @@
+{
+  "itemName" : "liquidmoontantsludge",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "moontantsludgeicon.png",
+  "shortdescription" : "Moontant Sludge",
+  "description" : "The liquidy sludge of a Moontant being. Probably no longer alive.",
+
+  "liquid" : "moontantsludgeliquid",
+  "price" : 0
+}

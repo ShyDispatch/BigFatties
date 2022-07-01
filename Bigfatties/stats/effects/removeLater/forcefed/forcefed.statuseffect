@@ -1,0 +1,9 @@
+{
+  "name" : "forcefed",
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+    "scripts" : [
+    "forcefed.lua"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfhotdogr",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfhotdogr.png",
+  "description" : "The useless bits of meat made useful and tasty with relish.",
+  "shortdescription" : "Relish Hot Dog",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

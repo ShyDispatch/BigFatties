@@ -1,0 +1,25 @@
+{
+  "itemName" : "64tbpizzap",
+  "rarity" : "Legendary",
+  "price" : 925,
+  "category" : "preparedFood",
+  "inventoryIcon" : "64tbpizzap.png",
+  "description" : "A whole pizzap! A really, really dense pizzap. Are you gonna eat all that? It'd just weigh you down.",
+  "shortdescription" : "Dense Pizzap",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 3200
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 2800
+    }
+  ] ],
+  "foodValue": 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

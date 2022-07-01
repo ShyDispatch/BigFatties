@@ -1,0 +1,86 @@
+[
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguin",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguinbandana",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguinberet",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguinhelmet",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguincowboy",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguinvikinghat",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/default/0/1/0/legs/-",
+    "value": {
+      "name": "fattypenguinscanner",
+      "parameters": {
+        "colorIndex": [
+          0
+        ]
+      }
+    }
+  }
+]

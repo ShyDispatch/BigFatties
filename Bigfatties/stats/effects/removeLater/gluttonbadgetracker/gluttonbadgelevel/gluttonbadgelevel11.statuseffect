@@ -1,0 +1,12 @@
+{
+	"name": "gluttonbadgelevel11",
+	"effectConfig": {
+		"level": 11
+	},
+	"scripts": [
+		"gluttonbadgelevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Immobilised",
+	"icon": "/interface/statuses/gluttonbadgelevel/gluttonbadgelevel11.png"
+}

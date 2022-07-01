@@ -1,0 +1,6 @@
+[
+  { "op" : "add", "path" : "/panes/bigfatties", "value" : {
+    "infusion" : "/interface/scripted/bigfatties/infusion/infusion.ui"//,
+    //"unfitbit" : "/interface/scripted/bigfatties/unfitbit/unfitbit.ui"
+  } }
+]

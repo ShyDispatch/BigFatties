@@ -1,0 +1,22 @@
+{
+  "projectileName" : "fatbeam",
+  "image" : "fatbeam.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 1.50,
+  "pointLight" : false,
+  "lightColor" : [128, 0, 128],
+  "power" : 40,
+  "speed" : 0,
+  "knockback" : 20,
+  "damagePoly" : [ [-44, -24], [44, -24], [44, 24], [-44, 24] ],
+  "piercing" : true,
+  "statusEffects" : [
+    {"effect": "bigfattiesratebloat", "duration": 10},
+    {"effect": "bigfattiesrategain", "duration": 10}
+  ],
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageType" : "ignoresdef",
+  "damageKind" : "plasma",
+  "damageKindImage" : "icon.png"
+}

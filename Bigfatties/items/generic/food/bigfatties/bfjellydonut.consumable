@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfjellydonut",
+  "rarity" : "Common",
+  "price" : 420,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfjellydonut.png",
+  "description" : "A delicious treat filled with endomorphic jelly",
+  "shortdescription" : "Jelly Donut",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfjellydonut" ]
+}

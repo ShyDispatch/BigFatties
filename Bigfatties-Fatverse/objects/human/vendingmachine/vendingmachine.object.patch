@@ -1,0 +1,14 @@
+[
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "goldencola" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bloatcola" }
+}
+]

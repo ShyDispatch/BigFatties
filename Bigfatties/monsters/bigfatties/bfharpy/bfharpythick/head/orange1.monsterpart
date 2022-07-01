@@ -1,0 +1,9 @@
+{
+  "name" : "orangehead1",
+  "category" : "bfharpythickorange",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head1.png"
+  }
+}

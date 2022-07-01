@@ -1,0 +1,16 @@
+{
+  "itemName" : "bfblubbernuggets",
+  "rarity" : "Common",
+  "price" : 240,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfblubbernuggets.png",
+  "description" : "Tasty, all white meat, ",
+  "shortdescription" : "Blubber Nuggets",
+  "foodValue": 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 12,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "tastyfries" ]
+}

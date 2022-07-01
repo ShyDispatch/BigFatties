@@ -1,0 +1,9 @@
+{
+  "name" : "body10",
+  "category" : "bfharpythickgrey",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body10.png"
+  }
+}

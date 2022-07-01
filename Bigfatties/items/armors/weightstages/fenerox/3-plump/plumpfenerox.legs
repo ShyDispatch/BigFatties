@@ -1,0 +1,14 @@
+{
+  "itemName" : "plumpfeneroxlegs",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "legwear",  
+  "description" : "Plush thighs. Jiggling rump. Dumby thick!",
+  "shortdescription" : "Plump Fenerox Legs",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsM.png",
+  "femaleFrames" : "pantsF.png"
+}

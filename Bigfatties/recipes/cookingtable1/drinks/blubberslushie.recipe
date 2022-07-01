@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "buttersnack", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "snowball", "count" : 1 },
+    { "item" : "sugarextract", "count" : 1 },
+    { "item" : "alienfruit", "count" : 1 }
+  ],
+  "output" : { "item" : "blubberslushie", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

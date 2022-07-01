@@ -1,0 +1,15 @@
+{
+  "itemName" : "immobileshadowlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "legwear",
+  "description" : "These extra largetrousers brim with dark energy.",
+  "shortdescription" : "Dark XXL Trousers",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "blob_pantsm.png",
+  "femaleFrames" : "blob_pantsf.png",
+
+  "effectSources" : [ "shadowsmoke" ]
+}

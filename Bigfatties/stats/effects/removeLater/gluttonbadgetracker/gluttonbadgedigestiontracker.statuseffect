@@ -1,0 +1,7 @@
+{
+	"name": "gluttonbadgedigestiontracker",
+	"defaultDuration": 20,
+	"scripts": [
+		"gluttonbadgetracker.lua"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "bigfattiesblob",
+	"scripts": [
+		"bigfattiessize.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Blob",
+	"icon": "/interface/statuses/bigfattiessize/bigfattiesblob.png"
+}

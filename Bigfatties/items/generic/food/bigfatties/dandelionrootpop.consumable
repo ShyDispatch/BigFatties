@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfdandelionrootpop",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "drink",
+  "inventoryIcon" : "dandelionrootpop.png",
+  "description" : "A refreshing bottle of Dandelion Root Pop.",
+  "shortdescription" : "Dandelion Root Pop",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue": 10,
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,50 @@
+[{
+		"op": "add",
+		"path": "/mootantTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.858, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "cowmilk"}, {"weight" : 0.02, "item" : "cowmilkdeluxe"}, {"weight" : 0.02, "item" : "mootantmilkshake"}, {"weight" : 0.001, "item" : "mootant-codex"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/floranmootantTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.859, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "bfsapmilk"}, {"weight" : 0.02, "item" : "bfsapmilkdeluxe"}, {"weight" : 0.02, "item" : "mootantmilkshake"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/glitchmootantTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.859, "pool" : "robotTreasure"}, {"weight" : 0.1, "item" : "cowmilk"}, {"weight" : 0.02, "item" : "cowmilkdeluxe"}, {"weight" : 0.02, "item" : "mootantmilkshake"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/hylotlmootantTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.859, "pool" : "robotTreasure"}, {"weight" : 0.1, "item" : "cowmilk"}, {"weight" : 0.02, "item" : "cowmilkdeluxe"}, {"weight" : 0.02, "item" : "mootantmilkshake"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/novamootantTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.859, "pool" : "robotTreasure"}, {"weight" : 0.1, "item" : "cowmilk"}, {"weight" : 0.02, "item" : "cowmilkdeluxe"}, {"weight" : 0.02, "item" : "mootantmilkshake"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/fathylotlghostTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.795, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.2, "item" : "phasematter"}, {"weight" : 0.004, "item" : "fatghost-codex"}, {"weight" : 0.001, "item" : "fathylotlghostaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/fatghostTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.8, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.2, "item" : "phasematter"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfbeedroneTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.899, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "bfbottledhoney"}, {"weight" : 0.001, "item" : "bfbeedroneaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfjellyTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.899, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "bfendomorphicjelly"}, {"weight" : 0.001, "item" : "bfjellyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfharpyTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.899, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "bfcinnamonroll"}, {"weight" : 0.001, "item" : "bfharpyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfharpybanditTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.899, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "bfcinnamonroll"}, {"weight" : 0.001, "item" : "bfharpyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfnicecreamTreasure",
+		"value": [ [1, { "pool" : [ {"weight" : 0.899, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.1, "item" : "whaleicecream"}, {"weight" : 0.001, "item" : "bfnicecreamaf"} ] } ] ]
+	}						
+]

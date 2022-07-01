@@ -1,0 +1,9 @@
+{
+  "name" : "buffethuge",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+    "scripts" : [
+    "buffethuge.lua"
+  ]
+}

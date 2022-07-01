@@ -1,0 +1,48 @@
+[
+  {
+    "op" : "add",
+    "path" : "/animationCustom/particleEmitters/fatCharge",
+    "value" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 25,
+      "offsetRegion" : [-1.0, -2.5, 1.0, 1.5],
+      "particles" : [
+        { "particle" : "fatswoosh1"},
+        { "particle" : "fatswoosh2"},
+        { "particle" : "fatswoosh3"},
+        { "particle" : "fataura"}
+      ]
+    }
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisoncharge",
+    "path" : "/animationCustom/sounds/fatcharge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonfull",
+    "path" : "/animationCustom/sounds/fatfull"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonactivate",
+    "path" : "/animationCustom/sounds/fatactivate"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonactive",
+    "path" : "/animationCustom/sounds/fatactive"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisondeactivate",
+    "path" : "/animationCustom/sounds/fatdeactivate"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "damageConfig" : { "statusEffects" : [ { "effect": "bigfattiesrategainslow", "duration": 3 }, { "effect": "bigfattiesratebloatfast", "duration": 3} ] } }
+  }
+]

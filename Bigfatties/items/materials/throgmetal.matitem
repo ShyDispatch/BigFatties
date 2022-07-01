@@ -1,0 +1,14 @@
+{
+  "itemName" : "throgmetal",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "throgpolygon.png",
+  "description" : "A curious material.",
+  "shortdescription" : "Throg Panel",
+  "glitchDescription" : "Observant. This matter is made of \"Hard Light\".",
+  "floranDescription" : "It feelsss electric.",
+  "novakidDescription" : "It reminds me of me.",
+
+  "materialId" : 51423
+}

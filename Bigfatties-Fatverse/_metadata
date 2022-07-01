@@ -1,0 +1,11 @@
+{
+  "version" : "0.6.0",
+  "author" : "Dispatch",
+  "requires" : ["Big Fatties"],
+  "description" : "Official Addon for Big Fatties. Provides various encounters that can be fattening to the player.",
+  "name" : "Big Fatties Fatverse",
+  "priority" : 999,  
+  "friendlyName" : "Big Fatties Fatverse",
+  "link" : "https://forum.weightgaming.com/t/starbound-mod-big-fatties/1649",
+  "includes" : ["StardustLib", "QuickbarMini", "Bigfatties"]
+}

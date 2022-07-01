@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfmarshmallow",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfmarshmallow.png",
+  "description" : "Perfect for roasting or making smores.",
+  "shortdescription" : "Marshmallow",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue": 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 12,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/statusEffects",
+    "value": [{"effect": "bigfattiesliquid", "duration": 25}, {"effect": "bigfattiesbloat", "duration": 25}]
+  }
+]

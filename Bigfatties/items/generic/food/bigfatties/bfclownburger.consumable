@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfclownburger",
+  "rarity" : "Common",
+  "price" : 215,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfclownburger.png",
+  "description" : "Just a simple, hot burger.",
+  "shortdescription" : "Simple Burger",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 80
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

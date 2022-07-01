@@ -1,0 +1,19 @@
+{
+  "projectileName" : "bfpoultry",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 2,
+  "image" : "bfpoultry.png",
+  "damageKindImage" : "icon.png",
+  "damagePoly" : [ [-6, 3], [-3, 6], [3, 6], [6, 3], [6, -3], [3, -6], [-3, -6], [-6, -3] ],
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "speed" : 19,
+  "power" : 50,
+  "damageKind" : "fat",
+  "emitters" : [ ],
+  "statusEffects" : [
+    {"effect": "bigfattiesbloat", "duration": 4},
+    {"effect": "bigfattiesfeed", "duration" : 2}
+  ]
+}

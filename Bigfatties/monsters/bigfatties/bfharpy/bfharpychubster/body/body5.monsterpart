@@ -1,0 +1,9 @@
+{
+  "name" : "body5",
+  "category" : "bfharpychubsterpurple",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body5.png"
+  }
+}

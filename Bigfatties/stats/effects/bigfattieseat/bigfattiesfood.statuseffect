@@ -1,0 +1,10 @@
+{
+	"name": "bigfattiesfood",
+	"effectConfig": {
+		"foodType": "food"
+	},
+	"defaultDuration": 1,
+	"scripts": [
+		"bigfattieseat.lua"
+	]
+}

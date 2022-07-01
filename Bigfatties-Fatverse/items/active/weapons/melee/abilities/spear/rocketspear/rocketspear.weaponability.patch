@@ -1,0 +1,22 @@
+[
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonStart",
+    "path" : "/animationCustom/sounds/fatStart"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonBlast",
+    "path" : "/animationCustom/sounds/fatBlast"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonEnd",
+    "path" : "/animationCustom/sounds/fatEnd"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "projectileType" : "fatthrower" }
+  }
+]

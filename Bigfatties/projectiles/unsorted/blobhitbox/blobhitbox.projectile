@@ -1,0 +1,19 @@
+{
+  "projectileName" : "blobhitbox",
+  "timeToLive" : 3,
+  "image": "/assetmissing.png",
+
+  "onlyHitTerrain" : true,
+
+  "physicsCollisions" : {
+    "hitbox" : {
+      "collision" : [[-5.3, -3.5], [-4.9, -4.0], [-1.4, -4.5], [1.4, -4.5], [4.9, -4.0], [5.3, -3.5], [4.8, -1.85], [1.6, 0.0], [0.75, 0.25], [-0.75, 0.25], [-1.6, 0.0], [-4.8, -1.85]],
+      "collisionKind" : "Platform"
+    },
+    "solidHitbox" : {
+      "collision" : [[-5.3, -3.5], [-4.9, -4.0], [-1.4, -4.5], [1.4, -4.5], [4.9, -4.0], [5.3, -3.5], [4.8, -1.85], [1.6, 0.0], [0.75, 0.25], [-0.75, 0.25], [-1.6, 0.0], [-4.8, -1.85]],
+      "collisionKind" : "Block",
+      "categoryWhitelist" : ["npc", "monster", "itemdrop"]
+    }
+  }
+}

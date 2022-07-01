@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "add",
+		"path" : "/destinations/-",
+		"value" : {
+				"name" : "Fat Outpost(WIP)",
+				"planetName" : "",
+				"warpAction" : "InstanceWorld:fattiesbar",
+				"icon" : "spacestation"
+		}
+	}
+]

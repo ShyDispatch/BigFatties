@@ -1,0 +1,5 @@
+{
+"input" : [{ "item" : "novakidsuspenderspants", "count" : 1 } ],
+"output" : { "item" : "thicknovakidsuspenderspants", "count" : 1 },
+"groups" : [ "mod", "weightscale", "thickclothes" ]
+}

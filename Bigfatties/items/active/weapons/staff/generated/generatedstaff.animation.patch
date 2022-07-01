@@ -1,0 +1,42 @@
+[
+  {
+    "op" : "add",
+    "path" : "/particleEmitters/fatcharge",
+    "value" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : [
+        {"particle" : "fatswoosh1"},
+        {"particle" : "fatswoosh2"},
+        {"particle" : "fireswoosh2"}
+      ]
+    }
+  },
+  {
+    "op" : "copy",
+    "from" : "/sounds/poisoncharge",
+    "path" : "/sounds/fatcharge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/sounds/poisonfullcharge",
+    "path" : "/sounds/fatfullcharge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/sounds/poisonchargedloop",
+    "path" : "/sounds/fatchargedloop"
+  },
+  {
+    "op" : "copy",
+    "from" : "/sounds/poisondischarge",
+    "path" : "/sounds/fatdischarge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/sounds/poisonactivate",
+    "path" : "/sounds/fatactivate"
+  }
+]

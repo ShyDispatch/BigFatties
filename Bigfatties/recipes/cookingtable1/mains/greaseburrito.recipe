@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bfhotsauce", "count" : 1 },
+    { "item" : "chili", "count" : 1 },	
+    { "item" : "buttersnack", "count" : 1 },	
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "wheat", "count" : 1 }
+  ],
+  "output" : { "item" : "bfburrito", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "bfbeedrone",
+  "category" : "bfbeedrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "bfbeedrone.png"
+  }
+}

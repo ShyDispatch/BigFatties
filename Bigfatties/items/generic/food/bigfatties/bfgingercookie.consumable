@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfgingercookie",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfgingercookie.png",
+  "description" : "A gingerbread cookie in the shape of a person.",
+  "shortdescription" : "Gingerbread Cookie",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 15
+    }
+  ] ],
+  "foodValue": 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 12,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "fattycookie" ]
+}

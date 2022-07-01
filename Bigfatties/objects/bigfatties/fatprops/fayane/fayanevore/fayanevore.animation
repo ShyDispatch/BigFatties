@@ -1,0 +1,180 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"interactState": {
+				"default": "default",
+				"states": {
+					"default": {
+						"frames": 1
+					},
+					"defaultVore": {
+						"frames": 1
+					},
+					"swallow": {
+						"frames": 34,
+						"cycle": 1.7,
+						"mode": "transition",
+						"transition": "defaultVore"
+					},
+					"digest": {
+						"frames": 5,
+						"cycle": 0.5,
+						"mode": "transition",
+						"transition": "default"
+					},
+					"regurgitate": {
+						"frames": 34,
+						"cycle": 1.7,
+						"mode": "transition",
+						"transition": "default"
+					}
+				}
+			}
+		},
+
+		"parts": {
+			"fayane": {
+				"partStates": {
+					"interactState": {
+						"default": {
+							"properties": {
+								"image": "<partImage>:default.default"
+							}
+						},
+
+						"defaultVore": {
+							"properties": {
+								"image": "<partImage>:default.vore"
+							}
+						},
+
+						"swallow": {
+							"properties": {
+								"image": "<partImage>:swallow.<frame>"
+							}
+						},
+
+						"digest": {
+							"properties": {
+								"image": "<partImage>:digest.<frame>"
+							}
+						},
+
+						"regurgitate": {
+							"properties": {
+								"image": "<partImage>:regurgitate.<frame>"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"particleEmitters": {
+		"emotehappy": {
+			"emissionRate": 1,
+			"particles": [{
+					"particle": {
+						"type": "animated",
+						"animation": "/animations/emotes/happy.animation",
+						"position": [-1.5, 2.5],
+						"finalVelocity": [0, 0],
+						"initialVelocity": [0, 0],
+						"destructionTime": 0.2,
+						"destructionAction": "shrink",
+						"layer": "front",
+						"timeToLive": 0.8,
+						"flippable": false
+					}
+				}
+			]
+		},
+		"boost": {
+			"emissionRate": 100,
+			"emissionVariance": 25,
+			"particles": [{
+					"particle": {
+						"type" : "ember",
+						"position" : [-0.125, -1.25],
+						"size" : 1.0,
+						"color" : [215, 255, 80, 200],
+						"fade" : 0.9,
+						"initialVelocity" : [0.0, 0.0],
+						"finalVelocity" : [0.0, 8.0],
+						"destructionTime": 0.1,
+						"destructionAction": "shrink",
+						"approach" : [0, 20],
+						"timeToLive" : 0.2,
+						"layer" : "middle",
+						"variance": {
+							"position": [1.2, 0.75]
+						}
+					}
+				}
+			]
+		},
+		"emotesad": {
+			"emissionRate": 1,
+			"particles": [{
+					"particle": {
+						"type": "animated",
+						"animation": "/animations/emotes/sad.animation",
+						"position": [-2, 2.5],
+						"finalVelocity": [0, 0],
+						"initialVelocity": [0, 0],
+						"destructionTime": 0.2,
+						"destructionAction": "shrink",
+						"layer": "front",
+						"timeToLive": 0.8,
+						"flippable": false
+					}
+				}
+			]
+		}
+	},
+
+	"sounds": {
+		"talk": ["/sfx/humanoid/floran_chatter_female1.ogg", "/sfx/humanoid/floran_chatter_female2.ogg", "/sfx/humanoid/floran_chatter_female3.ogg", "/sfx/humanoid/floran_chatter_female4.ogg", "/sfx/humanoid/floran_chatter_female5.ogg", "/sfx/humanoid/floran_chatter_female6.ogg"],
+		"digest": ["/sfx/bigfatties/digesting/digesting1.ogg",
+			"/sfx/bigfatties/digesting/digesting2.ogg",
+			"/sfx/bigfatties/digesting/digesting3.ogg",
+			"/sfx/bigfatties/digesting/digesting4.ogg",
+			"/sfx/bigfatties/digesting/digesting5.ogg",
+			"/sfx/bigfatties/digesting/digesting6.ogg",
+			"/sfx/bigfatties/digesting/digesting7.ogg",
+			"/sfx/bigfatties/digesting/digesting8.ogg"
+		],
+		"struggle":["/sfx/bigfatties/struggle/struggle1.ogg",
+				"/sfx/bigfatties/struggle/struggle2.ogg",
+				"/sfx/bigfatties/struggle/struggle3.ogg",
+				"/sfx/bigfatties/struggle/struggle4.ogg",
+				"/sfx/bigfatties/struggle/struggle5.ogg",
+				"/sfx/bigfatties/struggle/struggle6.ogg",
+				"/sfx/bigfatties/struggle/struggle7.ogg",
+				"/sfx/bigfatties/struggle/struggle8.ogg",
+				"/sfx/bigfatties/struggle/struggle9.ogg",
+				"/sfx/bigfatties/struggle/struggle10.ogg",
+				"/sfx/bigfatties/struggle/struggle11.ogg"],
+		"swallow":["/sfx/bigfatties/swallow/swallow1.ogg",
+				"/sfx/bigfatties/swallow/swallow2.ogg",
+				"/sfx/bigfatties/swallow/swallow3.ogg",
+				"/sfx/bigfatties/swallow/swallow4.ogg",
+				"/sfx/bigfatties/swallow/swallow5.ogg",
+				"/sfx/bigfatties/swallow/swallow6.ogg",
+				"/sfx/bigfatties/swallow/swallow7.ogg",
+				"/sfx/bigfatties/swallow/swallow8.ogg",
+				"/sfx/bigfatties/swallow/swallow9.ogg",
+				"/sfx/bigfatties/swallow/swallow10.ogg",
+				"/sfx/bigfatties/swallow/swallow11.ogg",
+				"/sfx/bigfatties/swallow/swallow12.ogg",
+				"/sfx/bigfatties/swallow/swallow13.ogg"],
+		"belch": ["/sfx/bigfatties/belch/belch1.ogg",
+				"/sfx/bigfatties/belch/belch2.ogg",
+				"/sfx/bigfatties/belch/belch3.ogg",
+				"/sfx/bigfatties/belch/belch4.ogg",
+				"/sfx/bigfatties/belch/belch5.ogg",
+				"/sfx/bigfatties/belch/belch6.ogg",
+				"/sfx/bigfatties/belch/belch7.ogg",
+				"/sfx/bigfatties/belch/belch8.ogg"]
+	}
+}

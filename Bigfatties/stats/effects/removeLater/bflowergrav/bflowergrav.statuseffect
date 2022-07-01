@@ -1,0 +1,8 @@
+{
+  "name" : "bflowergrav",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "bflowergrav.lua"
+  ]
+}

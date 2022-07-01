@@ -1,0 +1,32 @@
+{
+  "margin" : 0,
+  "name" : "bigfatties/materials",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 3,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "material" : "dispatchblock"
+    },
+    "1" : {
+      "material" : "throgpolygon"
+    },
+    "2" : {
+      "material" : "throgmetal"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/bigfatties/materials/dispatchblock.png"
+    },
+    "1" : {
+      "image" : "./../../../../tiled/bigfatties/materials/throgpolygon.png"
+    },
+    "2" : {
+      "image" : "./../../../../tiled/bigfatties/materials/throgmetal.png"
+    }
+  },
+  "tilewidth" : 16
+}

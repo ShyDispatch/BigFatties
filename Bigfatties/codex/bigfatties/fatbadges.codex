@@ -1,0 +1,15 @@
+{
+  "id" : "fatbadges",
+  "title" : "Fat and You",
+  "description" : "A manual on fat.",
+  "icon" : "fatbadges.png",
+  "contentPages" : [
+
+    "It's important when packing on the pounds that those pounds actually have a consequence."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

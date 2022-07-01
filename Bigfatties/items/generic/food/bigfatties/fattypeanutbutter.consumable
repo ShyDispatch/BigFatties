@@ -1,0 +1,21 @@
+{
+  "itemName" : "fattypeanutbutter",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "preparedFood",
+  "inventoryIcon" : "fattypeanutbutter.png",
+  "description" : "Once this jar used to attract a foolish jelly into a trap. Now you'd fall into a trap to eat it all up.",
+  "shortdescription" : "Peanut Butter",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

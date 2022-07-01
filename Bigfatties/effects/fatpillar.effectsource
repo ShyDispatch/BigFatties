@@ -1,0 +1,29 @@
+{
+  "kind" : "fatpillar",
+  "definition" : {
+    "duration" : 1.9,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "fatshard", "fatshard", "fatshard", "fatswoosh1", "fatswoosh1", "fatswoosh2", "fatswoosh1", "fatswoosh1", "fatswoosh2", "fatswoosh1", "fatswoosh1", "fatswoosh2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "fatswoosh1", "fatswoosh1", "fatswoosh2", "fatswoosh1", "fatswoosh1", "fatswoosh2", "fatswoosh1", "fatswoosh1", "fatswoosh2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "fatswoosh4", "fatswoosh4", "fatswoosh4", "fatswoosh4", "fatswoosh4", "fatswoosh4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

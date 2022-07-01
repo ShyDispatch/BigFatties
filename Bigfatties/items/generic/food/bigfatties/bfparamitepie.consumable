@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfparamitepie",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfparamitepie.png",
+  "description" : "Homestyle, and 100% natural.",
+  "shortdescription" : "Paramite Pie",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 220
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

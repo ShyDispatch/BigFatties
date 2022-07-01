@@ -1,0 +1,110 @@
+{
+  "margin" : 0,
+  "name" : "bigfatties/liquids",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 28,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//name" : "lardliquid",
+      "liquid" : "lardliquid"
+    },
+    "1" : {
+      "//name" : "moontantsludgeliquid",
+      "liquid" : "moontantsludgeliquid"
+    },
+    "2" : {
+      "//name" : "bfchocolateliquid",
+      "liquid" : "bfchocolateliquid"
+    },
+    "3" : {
+      "//name" : "bfhoneyliquid",
+      "liquid" : "bfhoneyliquid"
+    },
+    "4" : {
+      "//name" : "bfsodaliquid",
+      "liquid" : "bfsodaliquid"
+    },
+    "5" : {
+      "//name" : "greaseliquid",
+      "liquid" : "greaseliquid"
+    },
+    "6" : {
+      "//name" : "lardliquid_source",
+      "//shortdescription" : "Endless lard",
+      "liquid" : "lardliquid",
+      "source" : "true"
+    },
+    "7" : {
+      "//name" : "moontantsludgeliquid_source",
+      "//shortdescription" : "Endless moontant sludge",
+      "liquid" : "moontantsludgeliquid",
+      "source" : "true"
+    },
+    "8" : {
+      "//name" : "bfchocolateliquid_source",
+      "//shortdescription" : "Endless chocolate",
+      "liquid" : "bfchocolateliquid",
+      "source" : "true"
+    },
+    "9" : {
+      "//name" : "bfhoneyliquid_source",
+      "//shortdescription" : "Endless honey",
+      "liquid" : "bfhoneyliquid",
+      "source" : "true"
+    },
+    "10" : {
+      "//name" : "bfsodaliquid_source",
+      "//shortdescription" : "Endless soda",
+      "liquid" : "bfsodaliquid",
+      "source" : "true"
+    },
+    "11" : {
+      "//name" : "greaseliquid_source",
+      "//shortdescription" : "Endless grease",
+      "liquid" : "greaseliquid",
+      "source" : "true"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/lard.png"
+    },
+    "1" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/moontantsludge.png"
+    },
+    "2" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfchocolate.png"
+    },
+    "3" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfhoney.png"
+    },
+    "4" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfsoda.png"
+    },
+    "5" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/grease.png"
+    },
+    "6" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/lard_source.png"
+    },
+    "7" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/moontantsludge_source.png"
+    },
+    "8" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfchocolate_source.png"
+    },
+    "9" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfhoney_source.png"
+    },
+    "10" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/bfsoda_source.png"
+    },
+    "11" : {
+      "image" : "./../../../../tiled/bigfatties/liquids/grease_source.png"
+    }
+  },
+  "tilewidth" : 8
+}

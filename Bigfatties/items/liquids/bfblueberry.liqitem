@@ -1,0 +1,11 @@
+{
+  "itemName" : "bfliquidblueberry",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "bfblueberryicon.png",
+  "shortdescription" : "Liquid Blueberry",
+  "description" : "Strange, delicious blueberry liquid. You're not sure where it comes from.",
+
+  "liquid" : "bfblueberryliquid",
+  "price" : 0
+}

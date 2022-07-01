@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfzomburger",
+  "rarity" : "Common",
+  "price" : 640,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfzomburger.png",
+  "description" : "It's pretty much just charcoal on a  bun. It's awful.",
+  "shortdescription" : "Zomburger",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 1
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0
+}

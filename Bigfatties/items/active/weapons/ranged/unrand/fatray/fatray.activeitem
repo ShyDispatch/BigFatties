@@ -1,0 +1,42 @@
+{
+  "itemName" : "fatray",
+  "price" : 2500,
+  "inventoryIcon" : "fatray.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Emits a continuous beam of ^#ed87a6;pure fattening energy^reset;, rapidly fattening up hit.",
+  "shortdescription" : "Fat-Ray",
+  "tooltipKind" : "base",
+  "level" : 5,
+  "category" : "pistol",
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "animation" : "fatray.animation",
+  "animationParts" : {
+    "middle" : "fatray.png",
+    "middleFullbright" : "fatrayfullbright.png",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop2.ogg" ],
+      "fireEnd" : [],
+      "beamImpact" : []
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+
+  "muzzleOffset" : [1.5, 0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "fatray",
+  "primaryAbility" : {
+
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "buffet",
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+    "scripts" : [
+    "buffet.lua"
+  ]
+}

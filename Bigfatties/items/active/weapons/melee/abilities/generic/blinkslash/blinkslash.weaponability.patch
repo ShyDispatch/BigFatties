@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "damageConfig" : { "statusEffects" : [ { "effect": "bigfattiesrategainslow", "duration": 30 }, { "effect": "bigfattiesratebloatfast", "duration": 30} ] } }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "itemName" : "chubsterfeneroxlegs",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "legwear",  
+  "description" : "Plush thighs. Jiggling rump. Extra thick!",
+  "shortdescription" : "Chubby Fenerox Legs",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsM.png",
+  "femaleFrames" : "pantsF.png"
+}

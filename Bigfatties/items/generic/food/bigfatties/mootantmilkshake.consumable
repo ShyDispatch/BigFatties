@@ -1,0 +1,16 @@
+{
+  "itemName" : "mootantmilkshake",
+  "price" : 1600,
+  "rarity" : "Rare",
+  "category" : "food",
+  "inventoryIcon" : "mootantmilkshake.png",
+  "description" : "A Mooshi Milkshake mixed with mutagenic properties to bring out the Mooshi in the drinker.",
+  "shortdescription" : "Mootant Mutagenic Milkshake",
+  "maxStack" : 1,
+  "effects": [[
+      "lactaid"
+  ]],
+  "foodValue": 10,  
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

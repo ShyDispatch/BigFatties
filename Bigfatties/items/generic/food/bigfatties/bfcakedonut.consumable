@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfcakedonut",
+  "rarity" : "Common",
+  "price" : 220,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfcakedonut.png",
+  "description" : "A donut in its simplest and purest form.",
+  "shortdescription" : "Cake Donut",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bfcakedonut" ]
+}

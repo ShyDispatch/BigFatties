@@ -1,0 +1,15 @@
+{
+  "name" : "bfchocolateslow",
+  "blockingStat" : "wetImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "bfchocolateslow.lua"
+  ],
+
+  "animationConfig" : "bfchocolateslow.animation",
+
+  "label" : "Chocolate Coated",
+  "icon" : "/interface/statuses/bfliquidchocolate.png"
+}

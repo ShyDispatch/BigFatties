@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel3",
+	"effectConfig": {
+		"level": 3
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Chubby",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel3.png"
+}

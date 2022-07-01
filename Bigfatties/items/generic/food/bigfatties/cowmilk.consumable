@@ -1,0 +1,22 @@
+{
+  "itemName" : "cowmilk",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "cowmilk.png",
+  "description" : "From what's technically referred to either a Cow or Mooshi. Very delicious!",
+  "shortdescription" : "Cow Milk",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "emitters" : [ "drinking" ]
+}

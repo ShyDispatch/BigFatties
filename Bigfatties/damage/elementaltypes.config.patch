@@ -1,0 +1,16 @@
+[
+  { 
+    "op" : "add",
+	"path" : "/fat",
+	"value" : {
+	  "resistanceStat" : "physicalResistance",
+	  "damageNumberParticles" : {
+		"hit" : "fatdamagenumber",
+		"stronghit" : "fatdamagenumberstrong",
+		"weakhit" : "fatdamagenumberweak",
+		"shieldhit" : "fatdamagenumber",
+		"kill" : "fatdamagenumber"
+	  }
+	}
+  }
+]

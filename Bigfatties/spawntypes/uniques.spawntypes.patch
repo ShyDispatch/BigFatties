@@ -1,0 +1,150 @@
+[
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "fathylotlghost",
+			"spawnParameters":
+			{
+				"area": "air",
+				"region": "all",
+				"time": "night"
+			},
+
+			"spawnChance": 0.001,
+			"monsterType" : "fathylotlghost",
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "bfbeedrone",
+			"spawnParameters":
+			{
+				"area": "surface",
+				"region": "all",
+				"time": "day"
+			},
+
+			"spawnChance": 0.15,
+			"monsterType" : "bfbeedrone",
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "bfjelly",
+			"spawnParameters":
+			{
+				"area": "surface",
+				"region": "all",
+				"time": "all"
+			},
+
+			"spawnChance": 0.25,
+			"monsterType" : "bfjelly",
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "bfharpy",
+			"spawnParameters":
+			{
+				"area": "air",
+				"region": "all",
+				"time": "all"
+			},
+
+			"groupSize" : [1, 2],
+			"spawnChance": 0.003,
+			"monsterType" : [
+			[0.083, "bfharpythick"],
+			[0.083, "bfharpythickred"],
+			[0.083, "bfharpythickblue"],
+			[0.083, "bfharpythickgreen"],
+			[0.083, "bfharpythickyellow"],
+			[0.083, "bfharpythickpurple"],
+			[0.083, "bfharpythickturquoise"],
+			[0.083, "bfharpythickpink"],
+			[0.083, "bfharpythickorange"],
+			[0.083, "bfharpythickgrey"],
+			[0.083, "bfharpychubster"],
+			[0.083, "bfharpychubsterred"],
+			[0.083, "bfharpychubsterblue"],
+			[0.083, "bfharpychubstergreen"],
+			[0.083, "bfharpychubsteryellow"],
+			[0.083, "bfharpychubsterpurple"],
+			[0.083, "bfharpychubsterturquoise"],
+			[0.083, "bfharpychubsterpink"],
+			[0.083, "bfharpychubsterorange"],
+			[0.083, "bfharpychubstergrey"]
+			],
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "mootant",
+			"spawnParameters":
+			{
+				"area": "surface",
+				"region": "all",
+				"time": "day"
+			},
+
+			"spawnChance": 0.04,
+			"monsterType" : "mootant",
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/-",
+		"value":
+		{
+			"name": "floranmootant",
+			"spawnParameters":
+			{
+				"area": "surface",
+				"region": "all",
+				"time": "night"
+			},
+
+			"spawnChance": 0.03,
+			"monsterType" : "floranmootant",
+			"monsterParameters":
+			{
+				"aggressive": true
+			}
+		}
+	}
+]

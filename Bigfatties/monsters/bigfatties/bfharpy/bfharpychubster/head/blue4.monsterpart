@@ -1,0 +1,9 @@
+{
+  "name" : "bluehead4",
+  "category" : "bfharpychubsterblue",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head4.png"
+  }
+}

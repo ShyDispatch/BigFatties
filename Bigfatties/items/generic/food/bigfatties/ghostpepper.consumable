@@ -1,0 +1,29 @@
+{
+  "itemName" : "ghostpepper",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "food",
+  "inventoryIcon" : "ghostpepper.png",
+  "description" : "A ghostly pale pepper that's hard to hold onto. ",
+  "shortdescription" : "Ghost Pepper",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 250
+    },
+    {
+        "effect" : "sweat",
+        "duration" : 550
+    },
+    {
+        "effect" : "burning",
+        "duration" : 6
+    }
+  ] ],
+  "foodValue": 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

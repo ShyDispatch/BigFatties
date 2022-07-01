@@ -1,0 +1,33 @@
+{
+  "type" : "alphavorepredator",
+  "baseType" : "vorepredator",
+
+  "scriptConfig" : {
+    "disablePrey": true,
+    "initialStats": {
+      "voreDamage": 5,
+      "digestion": 20,
+      "health": 20,
+      "capacity": 20,
+      "movement": 20,
+      "absorption": 20
+    },
+    "initialSkills": {
+      "voreCritter": 1,
+      "voreMonster": 1,
+      "voreHumanoid": 1,
+      "minimumSize": 2
+    }
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "grit" : {
+        "baseValue" : 1
+      }
+    }
+  }
+}

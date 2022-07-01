@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfbottledhoney",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "bfbottledhoney.png",
+  "description" : "The restorative power of this honey is incredible.",
+  "shortdescription" : "Bottled Honey",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+      "effect" : "bfhoneyheal",
+      "duration" : 30
+    }
+  ] ],
+  "blockingEffects" : [
+    "healingwater"
+  ],
+  "emote" : "",
+  "emitters" : [ "drinkinghealing" ]
+}

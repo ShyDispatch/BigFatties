@@ -1,0 +1,15 @@
+{
+  "modId" : 51407,
+  "modName" : "bficing",
+  "description" : "Sweet, delicious icing",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bficing.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

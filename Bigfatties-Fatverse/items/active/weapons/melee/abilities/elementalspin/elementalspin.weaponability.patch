@@ -1,0 +1,36 @@
+[
+  {
+    "op" : "add",
+    "path" : "/animationCustom/particleEmitters/fatSpin",
+    "value" : {
+      "active" : false,
+      "emissionRate" : 12,
+      "offsetRegion" : [-3.5, -3.5, 3.5, 3.5],
+      "particles" : [
+        { "particle" : "fatswoosh1"},
+        { "particle" : "fatswoosh2"},
+        { "particle" : "fatswoosh3"}
+      ]
+    }
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonSpin",
+    "path" : "/animationCustom/sounds/fatSpin"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonSpinFire",
+    "path" : "/animationCustom/sounds/fatSpinFire"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : {
+      "projectileType" : "fatspinswoosh",
+      "damageConfig" : {
+        "statusEffects" : [ { "effect" : "bigfattiesfood", "duration" : 10 }, {"effect" : "npctracker", "duration" : 1} ]
+      }
+    }
+  }
+]

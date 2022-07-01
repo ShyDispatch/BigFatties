@@ -1,0 +1,35 @@
+[
+	{
+		"op": "add",
+		"path": "/species/-",
+		"value": "throg"
+	},{
+		"op": "add",
+		"path": "/defaultCodexes/throg",
+		"value":
+			[ "protectorate1", "protectorate2" ]
+	},{
+		"op": "add",
+		"path": "/species/-",
+		"value": "mootant"
+	},{
+		"op": "add",
+		"path": "/defaultCodexes/mootant",
+		"value":
+			[ "protectorate1", "protectorate2" ]
+	},{
+		"op": "add",
+		"path": "/genericScriptContexts/bigfatties",
+		"value": "/scripts/bigfatties.lua"
+	},{
+    "op": "add",
+    "path": "/companionsConfig/scripts/-",
+    "value": "/scripts/companions/bigfatties.lua"
+  },{
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "bigfattiesinfusiontable"
+    }
+  }
+]

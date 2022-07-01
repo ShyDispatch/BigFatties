@@ -1,0 +1,29 @@
+{
+  "kind" : "smallfatcloud",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "smallfatcloud1", "smallfatcloud2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [  ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

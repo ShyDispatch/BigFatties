@@ -1,0 +1,12 @@
+{
+	"name": "gluttonbadgelevel2",
+	"effectConfig": {
+		"level": 2
+	},
+	"scripts": [
+		"gluttonbadgelevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Extra Thick",
+	"icon": "/interface/statuses/gluttonbadgelevel/gluttonbadgelevel2.png"
+}

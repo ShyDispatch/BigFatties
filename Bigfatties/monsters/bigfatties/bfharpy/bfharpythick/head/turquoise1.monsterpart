@@ -1,0 +1,9 @@
+{
+  "name" : "turquoisehead1",
+  "category" : "bfharpythickturquoise",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head1.png"
+  }
+}

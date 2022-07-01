@@ -1,0 +1,16 @@
+{
+  "projectileName" : "bfsodacloud",
+  "image" : "bfsodacloud.png",
+  "physics" : "flame",
+  "animationCycle" : 1.05,
+  "animationLoops" : false,
+  "frameNumber" : 8,
+  "power" : -1,
+  "speed" : 3,
+  "timeToLive" : 0.9,
+  "bounces" : 1,
+  "damagePoly" : [ [-1, 0], [-2, -2], [0, -1], [2, -2], [1, 0], [2, 2], [0, 1], [-2, 2] ],
+  "piercing" : true,
+  "statusEffects" : [{"effect": "bigfattiesliquid", "duration": 20}],
+  "damageKind" : "fat"
+}

@@ -1,0 +1,27 @@
+{
+  "itemName" : "bfhotsauce",
+  "rarity" : "Uncommon",
+  "price" : 80,
+  "category" : "drink",
+  "inventoryIcon" : "bfhotsauce.png",
+  "description" : "Pure hot sauce! Drink it on your own and question your life desicions as you sweat up a storm from the heat.",
+  "shortdescription" : "Hot Sauce",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 150
+    },
+    {
+        "effect" : "sweat",
+        "duration" : 350
+    },
+    {
+        "effect" : "burning",
+        "duration" : 3
+    }
+  ] ],
+  "tooltipKind" : "food",  
+  "maxStack" : 1,
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "bfhotsauce" ]    
+}

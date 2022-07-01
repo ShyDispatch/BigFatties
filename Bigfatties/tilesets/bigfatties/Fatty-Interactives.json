@@ -1,0 +1,257 @@
+{
+  "margin" : 0,
+  "name" : "bigfatties/Fat-Interactives",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 80,
+  "tileheight" : 44,
+  "tileproperties" : {
+    "0" : {
+      "//name" : "fattymirror",
+      "imagePositionX" : "-12",
+      "imagePositionY" : "0",
+      "object" : "fattymirror",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//name" : "altarfattyeffect",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "altarfattyeffect",
+      "tilesetDirection" : "right"
+    },
+    "2" : {
+      "//name" : "bigfatties",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "bigfatties",
+      "tilesetDirection" : "right"
+    },
+    "3" : {
+      "//name" : "bigfattiescounter",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "bigfattiescounter",
+      "tilesetDirection" : "right"
+    },
+    "4" : {
+      "//name" : "bigfattiesonline",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "bigfattiesonline",
+      "tilesetDirection" : "right"
+    },
+    "5" : {
+      "//name" : "bigfattiesvendingmachine",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "bigfattiesvendingmachine",
+      "tilesetDirection" : "right"
+    },
+    "6" : {
+      "//name" : "scarlettusedclothes",
+      "imagePositionX" : "-48",
+      "imagePositionY" : "0",
+      "object" : "scarlettusedclothes",
+      "tilesetDirection" : "right"
+    },
+    "7" : {
+      "//name" : "fattiesfurnishings",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "fattiesfurnishings",
+      "tilesetDirection" : "right"
+    },
+    "8" : {
+      "//name" : "throgarsenal",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-24",
+      "object" : "throgarsenal",
+      "tilesetDirection" : "right"
+    },
+    "9" : {
+      "//name" : "fattiesoddities",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "fattiesoddities",
+      "tilesetDirection" : "right"
+    },
+    "10" : {
+      "//name" : "hirakisfatbooks",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "hirakisfatbooks",
+      "tilesetDirection" : "right"
+    },
+    "11" : {
+      "//name" : "medievalfurnace",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "medievalfurnace",
+      "tilesetDirection" : "right"
+    },
+    "12" : {
+      "//name" : "microwave",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "microwave",
+      "tilesetDirection" : "right"
+    },
+    "13" : {
+      "//name" : "ironcraftingtable",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "ironcraftingtable",
+      "tilesetDirection" : "right"
+    },
+    "14" : {
+      "//name" : "researchstation",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "researchstation",
+      "tilesetDirection" : "right"
+    },
+    "15" : {
+      "//description" : "The Hylotl flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+      "//name" : "flaghylotl",
+      "//shortdescription" : "Hylotl Flag",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "flaghylotl",
+      "tilesetDirection" : "right"
+    },
+    "16" : {
+      "//description" : "The Hylotl flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+      "//name" : "flaghylotl_orientation1",
+      "//shortdescription" : "Hylotl Flag",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "flaghylotl",
+      "tilesetDirection" : "right"
+    },
+    "17" : {
+      "//description" : "Crackling quietly, the smell of hickory smoke is delightful.",
+      "//name" : "rusticoven",
+      "//shortdescription" : "Rustic Oven",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "rusticoven",
+      "tilesetDirection" : "right"
+    },
+    "18" : {
+      "//name" : "manipulatortable",
+      "invalid" : "true"
+    },
+    "19" : {
+      "//description" : "It's been so long since I had a home cooked meal... or a home.",
+      "//name" : "fattiesweightscale",
+      "//shortdescription" : "Basic Oven",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "fattiesweightscale",
+      "tilesetDirection" : "right"
+    },
+    "20" : {
+      "//description" : "Used to produce wholesome foods with a variety of effects.",
+      "//name" : "woodencookingtable",
+      "//shortdescription" : "^orange;Kitchen Counter^white;",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "woodencookingtable",
+      "tilesetDirection" : "right"
+    },
+    "21" : {
+      "//description" : "Compress pixels for storage.",
+      "//name" : "pixelcompressor",
+      "//shortdescription" : "^orange;Pixel Compressor^white;",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "pixelcompressor",
+      "tilesetDirection" : "right"
+    },
+    "22" : {
+      "//name" : "acceleratortable",
+      "invalid" : "true"
+    },
+    "23" : {
+      "//name" : "scifianvil",
+      "invalid" : "true"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/fattymirror.png"
+    },
+    "1" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/altarfatty.png"
+    },
+    "2" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/bigfatties.png"
+    },
+    "3" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/bigfattiescounter.png"
+    },
+    "4" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/bigfattiesonline.png"
+    },
+    "5" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/bigfattiesvendingmachine.png"
+    },
+    "6" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/scarlettusedclothes.png"
+    },
+    "7" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/fattiesfurnishings.png"
+    },
+    "8" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/throgarsenal.png"
+    },
+    "9" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/fattiesoddities.png"
+    },
+    "10" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/hirakisfatbooks.png"
+    },
+    "11" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/treadmill.png"
+    },
+    "12" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/apexweightscale.png"
+    },
+    "13" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/avaliweightscale.png"
+    },
+    "14" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/avianweightscale.png"
+    },
+    "15" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/floranweightscale.png"
+    },
+    "16" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/glitchweightscale.png"
+    },
+    "17" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/hylotlweightscale.png"
+    },
+    "18" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/novakidweightscale.png"
+    },
+    "19" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/fattiesweightscale.png"
+    },
+    "20" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/icecreamdispenser.png"
+    },
+    "21" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/hugechunkofmeat.png"
+    },
+    "22" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/bfcherry.png"
+    },
+    "23" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/pancakes.png"
+    }
+  },
+  "tilewidth" : 48
+}

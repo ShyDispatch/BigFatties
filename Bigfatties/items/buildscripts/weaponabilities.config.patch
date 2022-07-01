@@ -1,0 +1,42 @@
+[
+  { "op": "add",
+    "path": "/fatray",
+    "value": "/items/active/weapons/ranged/abilities/fatray/fatray.weaponability"
+  },
+  { "op": "add",
+    "path": "/miniknogfatray",
+    "value": "/items/active/weapons/ranged/abilities/miniknogfatray/miniknogfatray.weaponability"
+  },
+  { "op": "add",
+    "path": "/antifatray",
+    "value": "/items/active/weapons/ranged/abilities/antifatray/antifatray.weaponability"
+  },
+  { "op": "add",
+  "path": "/bfsodanade",
+  "value": "/items/active/weapons/ranged/abilities/bfsodanade/bfsodanade.weaponability"
+  },
+  { "op": "add",
+  "path": "/bfsakewave",
+  "value": "/items/active/weapons/melee/abilities/hammer/shockwave/bfsakewave.weaponability"
+  },
+  { "op": "add",
+  "path": "/bfmeatshot",
+  "value": "/items/active/weapons/melee/abilities/spear/meatshot/bfmeatshot.weaponability"
+  },
+  { "op": "add",
+  "path": "/ponderouszone",
+  "value": "/items/active/weapons/staff/abilities/effectzone/ponderouszone.weaponability"
+  },
+  { "op": "add",
+  "path": "/bfgainbeam",
+  "value": "/items/active/weapons/ranged/abilities/gainbeam/bfgainbeam.weaponability"
+  },
+  { "op": "add",
+  "path": "/bfrayofgain",
+  "value": "/items/active/weapons/ranged/abilities/rayofgain/bfrayofgain.weaponability"
+  },
+  { "op": "add",
+  "path": "/throgbolt",
+  "value": "/items/active/weapons/melee/abilities/spear/throgbolt/throgbolt.weaponability"
+  }  
+]  

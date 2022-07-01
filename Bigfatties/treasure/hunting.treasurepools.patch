@@ -1,0 +1,50 @@
+[{
+		"op": "add",
+		"path": "/mootantHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.555, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "cowmilk"}, {"weight" : 0.04, "item" : "cowmilkdeluxe"}, {"weight" : 0.004, "item" : "mootant-codex"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/floranmootantHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.559, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "bfsapmilk"}, {"weight" : 0.04, "item" : "bfsapmilkdeluxe"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/glitchmootantHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.559, "pool" : "robotTreasure"}, {"weight" : 0.4, "item" : "cowmilk"}, {"weight" : 0.04, "item" : "cowmilkdeluxe"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/hylotlmootantHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.559, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "cowmilk"}, {"weight" : 0.04, "item" : "cowmilkdeluxe"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/novamootantHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.559, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "cowmilk"}, {"weight" : 0.04, "item" : "cowmilkdeluxe"}, {"weight" : 0.001, "item" : "mootantaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/fathylotlghostHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.595, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "phasematter"}, {"weight" : 0.004, "item" : "fatghost-codex"}, {"weight" : 0.001, "item" : "fathylotlghostaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/fatghostHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "phasematter"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfbeedroneHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.599, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "bfbottledhoney"}, {"weight" : 0.001, "item" : "bfbeedroneaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfjellyHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.499, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.5, "item" : "bfendomorphicjelly"}, {"weight" : 0.001, "item" : "bfjellyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfharpyHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.599, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "bfcinnamonroll"}, {"weight" : 0.001, "item" : "bfharpyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfharpybanditHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.599, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "bfcinnamonroll"}, {"weight" : 0.001, "item" : "bfharpyaf"} ] } ] ]
+	},{
+		"op": "add",
+		"path": "/bfnicecreamHunting",
+		"value": [ [1, { "pool" : [ {"weight" : 0.599, "pool" : "noMeatMonsterTreasure"}, {"weight" : 0.4, "item" : "whaleicecream"}, {"weight" : 0.001, "item" : "bfnicecreamaf"} ] } ] ]
+	}						
+]

@@ -1,0 +1,8 @@
+{
+  "name" : "thickxlmaxhealthboost",
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost_remove.lua"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "bfstarcandy",
+  "rarity" : "Common",
+  "price" : 340,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfstarcandy.png",
+  "description" : "A chunk of candy that looks a bot like a star.",
+  "shortdescription" : "Star Candy",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

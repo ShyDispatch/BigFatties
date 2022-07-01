@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonTravelSlash",
+    "path" : "/animationCustom/sounds/fatTravelSlash"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "projectileType" : "fattravelingswoosh" }
+  }
+]

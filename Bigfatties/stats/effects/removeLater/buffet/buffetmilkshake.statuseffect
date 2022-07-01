@@ -1,0 +1,9 @@
+{
+  "name" : "buffetmilkshake",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+    "scripts" : [
+    "buffetmilkshake.lua"
+  ]
+}

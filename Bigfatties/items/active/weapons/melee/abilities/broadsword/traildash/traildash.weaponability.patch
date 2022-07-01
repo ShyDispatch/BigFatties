@@ -1,0 +1,32 @@
+[
+  {
+    "op" : "add",
+    "path" : "/animationCustom/particleEmitters/fatSwordCharge",
+    "value" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "fatswoosh1"},
+        { "particle" : "fatswoosh2"},
+        { "particle" : "fatswoosh3"}
+      ]
+    }
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonTrailDashCharge",
+    "path" : "/animationCustom/sounds/fatTrailDashCharge"
+  },
+  {
+    "op" : "copy",
+    "from" : "/animationCustom/sounds/poisonTrailDashFire",
+    "path" : "/animationCustom/sounds/fatTrailDashFire"
+  },
+  {
+    "op" : "add",
+    "path" : "/ability/elementalConfig/fat",
+    "value" : { "projectileType" : "fattrail" }
+  }
+]

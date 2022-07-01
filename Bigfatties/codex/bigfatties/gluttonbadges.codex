@@ -1,0 +1,15 @@
+{
+  "id" : "gluttonbadges",
+  "title" : "Glutton Badges: Expanded",
+  "description" : "A manual on glutton badges.",
+  "icon" : "fatbadges.png",
+  "contentPages" : [
+
+    "Glutton Badges"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

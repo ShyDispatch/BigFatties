@@ -1,0 +1,22 @@
+{
+  "itemName" : "buttersnack",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "preparedFood",
+  "inventoryIcon" : "buttersnack.png",
+  "description" : "Compact, dense and tasty. Sometimes you just need to put worry about calories behind you.",
+  "shortdescription" : "Buttersnack",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "buttersnack" ]
+}

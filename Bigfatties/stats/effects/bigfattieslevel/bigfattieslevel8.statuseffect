@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel8",
+	"effectConfig": {
+		"level": 8
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Extra Fatty",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel8.png"
+}

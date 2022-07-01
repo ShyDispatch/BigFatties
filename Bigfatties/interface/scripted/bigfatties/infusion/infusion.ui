@@ -1,0 +1,269 @@
+
+{
+  "style" : "window",
+  "size" : [400, 220],
+  "title" : "Infusion Table",
+  "icon" : "icon.png",
+  "accentColor" : "b8eb00",
+  "uniqueBy" : "path",
+  "scripts" : [ "infusion.lua" ],
+  "children" : [
+    {
+      "type": "tabField",
+      "tabs": [
+        {
+          "title": " Skills ",
+          "contents": [
+            {"mode": "vertical"},
+            [
+              {"size" : 179},
+              [
+                {"type": "panel", "style": "convex", "children": [
+                  {
+                    "type": "scrollArea",
+                    "id": "skillTree",
+                    "scrollDirections" : [1, 1],
+                    "scrollBars" : false,
+                    "thumbScrolling" : false,
+                    "children": [
+                      {"mode": "manual"},
+                      {"type": "image", "noAutoCrop": true, "file": "body.png"},
+                      {"type": "canvas", "id": "skillCanvas", "size": [480, 320]},
+                      {"type": "layout", "id": "skillWidgets", "size": [480, 320], "mode": "manual", "children": [
+                        {"type": "layout", "position": [216, 134], "size": [48, 48], "mode": "manual", "children": [
+                          {"id": "rootSkill_back", "type": "image", "noAutoCrop": true, "position": [12, 8], "file": "backCircle.png"},
+                          {"id": "rootSkill", "toolTip": "Click me for help!", "position": [16, 12], "type": "iconButton",
+                            "image": "skills/rootSkill.png",
+                            "hoverImage": "skills/rootSkill.png",
+                            "pressImage": "skills/rootSkill.png?border=1;00000000;00000000?crop=1;2;17;18"
+                          }
+                        ]}
+                      ]}
+                    ]
+                  }
+                ]},
+                5
+              ],
+              [
+                {"size" : 120},
+                {"type": "panel", "style": "convex", "children": [
+                  1,
+                  {"type": "image", "id": "descriptionIcon", "noAutoCrop": true, "scale": 2, "file": "/assetmissing.png"},
+                  1,
+                  {"type": "label", "id": "descriptionTitle", "align": "center", "fontSize": 10, "text": ""},
+                  1,
+                  {"type": "label", "id": "descriptionText", "align": "center", "text": ""},
+                  "spacer",
+                  {"type": "layout", "id": "descriptionWidget", "mode": "vertical", "children": []}
+                ]},
+                {"type": "layout", "id": "infoPanel", "mode": "vertical", "children": [{"type": "panel", "style": "convex", "children": [
+                  1,
+                  {"type": "layout", "mode": "horizontal", "children": [
+                    1,
+                    {"type": "label", "id": "infoCurrent", "align": "center", "text": ""},
+                    {"type": "label", "id": "infoNext", "align": "center", "text": ""},
+                    1
+                  ]},
+                  1
+                ]}]},
+                {"type": "layout", "id": "unlockPanel", "mode": "vertical", "children": [{"type": "panel", "style": "convex", "children": [
+                  1,
+                  {"type": "layout", "mode": "horizontal", "children": [
+                    1,
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "image", "position": [0, 0], "noAutoCrop": true, "file": "unlockLevel.png"},
+                      {"type": "label", "position": [0, 8], "size": [36, 12], "id": "unlockExperience", "align": "center", "text": "0 XP"},
+                      {"type": "label", "position": [36, 8], "size": [36, 12], "id": "unlockText", "align": "center", "text": "?/?"},
+                      {"type": "iconButton", "id": "unlockIncrease", "position": [73, 0],
+                        "image": "unlockIncrease.png",
+                        "hoverImage": "unlockIncrease.png",
+                        "pressImage": "unlockIncrease.png?border=1;00000000;00000000?crop=1;2;13;15"
+                      },
+                      {"type": "iconButton", "id": "unlockDecrease", "position": [73, 12],
+                        "image": "unlockDecrease.png",
+                        "hoverImage": "unlockDecrease.png",
+                        "pressImage": "unlockDecrease.png?border=1;00000000;00000000?crop=1;2;13;15"
+                      }
+                    ]},
+                    "spacer",
+                    {"id": "unlockButton", "toolTip": "Click me to unlock!", "type": "iconButton",
+                      "image": "unlock.png",
+                      "hoverImage": "unlock.png",
+                      "pressImage": "unlock.png?border=1;00000000;00000000?crop=1;2;25;27"
+                    },
+                    1
+                  ]},
+                  1
+                ]}]},
+                5
+              ]
+            ]
+          ]
+        },
+        {
+          "title": " Accessories ",
+          "contents": [
+            {"mode": "vertical"},
+            [
+              {"size" : 179},
+              [
+                {"size" : 80},
+                {"expandMode": [1, 1]},
+                {"type": "panel", "style": "convex", "mode": "vertical", "children": [
+                  {"type": "panel", "style": "convex", "expandMode": [1, 0], "children": [
+                    {"type": "layout", "mode": "manual", "size": [74, 20], "children": [
+                      {"type": "label", "position": [0, 6], "size": [74, 9], "align": "center", "text": "Accessories"}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "position": [0, 6], "size": [74, 9], "align": "center", "text": "Pendant"},
+                      {"type": "itemSlot", "id": "pendant", "glyph": "backingimagependant.png", "autoInteract": true, "position": [27, 16]}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "position": [0, 6], "size": [74, 9], "align": "center", "text": "Ring"},
+                      {"type": "itemSlot", "id": "ring", "glyph": "backingimagering.png", "autoInteract": true, "position": [27, 16]}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "position": [0, 6], "size": [74, 9], "align": "center", "text": "Trinket"},
+                      {"type": "itemSlot", "id": "trinket", "glyph": "backingimagetrinket.png", "autoInteract": true, "position": [27, 16]}
+                    ]}
+                  ]}
+                ]},
+                5
+              ],
+              [
+                {"expandMode": [1, 1]},
+                {"type": "panel", "style": "convex", "mode": "vertical", "children": [
+                  {"type": "panel", "style": "convex", "expandMode": [1, 0], "children": [
+                    {"type": "layout", "mode": "manual", "size": [190, 20], "children": [
+                      {"type": "label", "position": [0, 6], "size": [190, 9], "align": "center", "text": "Effects"}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "id": "pendantDescription", "position": [2, 7], "size": [190, 34], "align": "left", "text": ""}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "id": "ringDescription", "position": [2, 7], "size": [190, 34], "align": "left", "text": ""}
+                    ]}
+                  ]},
+                  {"type": "panel", "style": "concave", "children": [
+                    {"type": "layout", "mode": "manual", "children": [
+                      {"type": "label", "id": "trinketDescription", "position": [2, 7], "size": [190, 34], "align": "left", "text": ""}
+                    ]}
+                  ]}
+                ]},
+                5
+              ],
+              [
+                {"size" : 120},
+                {"type": "panel", "style": "convex", "children": [
+                  1,
+                  {"type": "image", "noAutoCrop": true, "scale": 2, "file": "skills/rootSkill.png"},
+                  1,
+                  {"type": "label", "align": "center", "fontSize": 10, "text": "Accessories"},
+                  1,
+                  {"type": "label", "align": "center", "text": "This section allows you to equip pendants, rings & trinkets to alter your playstyle & upgrade your abilities.\n\nYou can access this part of the infusion table from the quickbar at any time!"},
+                  "spacer",
+                  1
+                ]},
+                5
+              ]
+            ]
+          ]
+        },
+        {
+          "title": " Options ",
+          "contents": [
+            {"mode": "vertical"},
+            [
+              {"size" : 179},
+              [
+                {"type": "panel", "style": "convex", "children": [
+                  {"type": "panel", "style": "convex", "expandMode": [1, 0], "children": [
+                    {"type": "layout", "mode": "manual", "size": [131, 20], "children": [
+                      {"type": "label", "position": [0, 6], "size": [131, 9], "align": "center", "text": "Feature Toggles"}
+                    ]}
+                  ]},
+                  {
+                    "type": "scrollArea",
+                    "id" : "optionsPanel_features",
+                    "children": []
+                  }
+                ]},
+                5
+              ],
+              [
+                {"type": "panel", "style": "convex", "children": [
+                  {"type": "panel", "style": "convex", "expandMode": [1, 0], "children": [
+                    {"type": "layout", "mode": "manual", "size": [131, 20], "children": [
+                      {"type": "label", "position": [0, 6], "size": [131, 9], "align": "center", "text": "Body Shape"}
+                    ]}
+                  ]},
+                  {
+                    "type": "scrollArea",
+                    "id" : "optionsPanel_body",
+                    "children": []
+                  }
+                ]},
+                5
+              ],
+              [
+                {"size" : 120},
+                {"type": "panel", "style": "convex", "children": [
+                  1,
+                  {"type": "image", "noAutoCrop": true, "scale": 2, "file": "skills/rootSkill.png"},
+                  1,
+                  {"type": "label", "align": "center", "fontSize": 10, "text": "Options"},
+                  1,
+                  {"type": "label", "align": "center", "text": "This section allows you to enable & disable specific parts of the mod to suit your tastes.\n\nYou can access this part of the infusion table from the quickbar at any time!"},
+                  "spacer",
+                  1
+                ]},
+                5
+              ]
+            ]
+          ]
+        }
+      ],
+      "bottomBar": [
+        {"mode": "horizontal"},
+        "spacer",
+        {"type": "layout", "id": "barPadding", "visible": true, "size": [39, 19], "children": []},
+        {"type": "iconButton", "id": "weightDecrease", "visible": false, "toolTip": "Decrease your weight by 1 stage.", "image" : "weightDecrease.png", "hoverImage" : "weightDecrease.png", "pressImage" : "weightDecrease.png?border=1;00000000;00000000?crop=1;2;19;21"},
+        {"type": "iconButton", "id": "weightIncrease", "visible": false, "toolTip": "Increase your weight by 1 stage.", "image" : "weightIncrease.png", "hoverImage" : "weightIncrease.png", "pressImage" : "weightIncrease.png?border=1;00000000;00000000?crop=1;2;19;21"},
+        {"type": "iconButton", "id": "enable", "toolTip": "Enable or Disable the mod.", "image" : "enabled.png", "hoverImage" : "enabled.png", "pressImage" : "enabled.png?border=1;00000000;00000000?crop=1;2;87;21"},
+        {"type": "iconButton", "id": "reset", "toolTip": "Reset the mod.", "image" : "reset.png", "hoverImage" : "reset.png", "pressImage" : "reset.png?border=1;00000000;00000000?crop=1;2;19;21"},
+        "spacer",
+        24,
+        {
+          "type": "layout",
+          "mode": "manual",
+          "size" : [104, 18],
+          "children": [
+            {"type": "image", "position": [0, 0], "noAutoCrop": true, "file": "bar_body.png"},
+            {"type": "label", "position": [2, 5], "size": [28, 12], "id": "experienceText", "align": "center", "text": "0 XP"},
+            {
+              "type": "layout",
+              "mode": "horizontal",
+              "position": [32, 2],
+              "size" : [70, 14],
+              "children": [
+                {"type": "image", "id": "experienceBar", "file": "bar.png"}
+              ]
+            },
+            {"type": "image", "position": [32, 2], "noAutoCrop": true, "file": "bar_overlay.png"}
+          ]
+        },
+        6
+      ]
+    }
+  ]
+}

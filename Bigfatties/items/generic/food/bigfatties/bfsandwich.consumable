@@ -1,0 +1,25 @@
+{
+  "itemName" : "bfsandwich",
+  "rarity" : "Common",
+  "price" : 550,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bfsandwich.png",
+  "description" : "A nicely cut triangular sandwich. Despite the size, it's quite heavy.",
+  "shortdescription" : "Weighted Sandwich",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 20
+    },
+    {
+        "effect" : "healingwater",
+        "duration" : 30
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

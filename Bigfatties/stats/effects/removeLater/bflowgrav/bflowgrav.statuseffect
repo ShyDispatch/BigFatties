@@ -1,0 +1,8 @@
+{
+  "name" : "bflowgrav",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "bflowgrav.lua"
+  ]
+}

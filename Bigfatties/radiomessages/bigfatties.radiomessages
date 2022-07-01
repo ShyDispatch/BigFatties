@@ -1,0 +1,14 @@
+{
+  "bigfatties_wellfed" : {
+    "unique": false,
+    "text" : "You appear to have completely filled up your stomach capacity. ^orange;While full, you'll be unable to consume any more food^reset; until digestion gives you some room."
+  },
+  "bigfatties_digestcrew" : {
+    "unique": false,
+    "text" : "Caution! Since the Protectorate Code was amended with the Audrey Act, ^orange;crew are permanently digested when eaten by the captain^reset; to prevent repeated digestion."
+  },
+  "bigfatties_treadmill" : {
+    "unique": false,
+    "text" : "You appear to be using a treadmill. ^green;Running on it will allow you to quickly lose excess weight^reset; you have gained while exploring."
+  }
+}

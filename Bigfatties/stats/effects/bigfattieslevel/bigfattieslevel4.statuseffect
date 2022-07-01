@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel4",
+	"effectConfig": {
+		"level": 4
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Extra Chubby",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel4.png"
+}

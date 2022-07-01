@@ -1,0 +1,9 @@
+{
+  "name" : "fatattack",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+    "scripts" : [
+    "fatattack.lua"
+  ]
+}

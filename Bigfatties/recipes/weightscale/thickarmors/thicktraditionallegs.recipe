@@ -1,0 +1,5 @@
+{
+"input" : [{ "item" : "traditionallegs", "count" : 1 } ],
+"output" : { "item" : "thicktraditionallegs", "count" : 1 },
+"groups" : [ "mod", "weightscale", "thickclothes" ]
+}

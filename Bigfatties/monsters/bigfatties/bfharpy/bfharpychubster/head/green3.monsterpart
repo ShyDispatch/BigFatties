@@ -1,0 +1,9 @@
+{
+  "name" : "greenhead3",
+  "category" : "bfharpychubstergreen",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head3.png"
+  }
+}

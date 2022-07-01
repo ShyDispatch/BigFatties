@@ -1,0 +1,12 @@
+{
+	"name": "gluttonbadgelevel3",
+	"effectConfig": {
+		"level": 3
+	},
+	"scripts": [
+		"gluttonbadgelevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Chubby",
+	"icon": "/interface/statuses/gluttonbadgelevel/gluttonbadgelevel3.png"
+}

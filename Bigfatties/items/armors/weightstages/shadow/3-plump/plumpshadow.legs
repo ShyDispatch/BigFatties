@@ -1,0 +1,15 @@
+{
+  "itemName" : "plumpshadowlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "legwear",
+  "description" : "These extra largetrousers brim with dark energy.",
+  "shortdescription" : "Dark XL Trousers",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "effectSources" : [ "shadowsmoke" ]
+}

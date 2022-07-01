@@ -1,0 +1,9 @@
+{
+  "name" : "bandithead1",
+  "category" : "bfharpythickbandit",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bandithead1.png"
+  }
+}

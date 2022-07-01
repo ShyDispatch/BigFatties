@@ -1,0 +1,9 @@
+{
+  "name" : "pinkhead3",
+  "category" : "bfharpychubsterpink",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head3.png"
+  }
+}

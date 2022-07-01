@@ -1,0 +1,11 @@
+{
+  "itemName" : "bfliquidhoney",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "bfhoneyicon.png",
+  "shortdescription" : "Honey",
+  "description" : "Delicious, pure honey.",
+
+  "liquid" : "bees_liquidhoney",
+  "price" : 0
+}

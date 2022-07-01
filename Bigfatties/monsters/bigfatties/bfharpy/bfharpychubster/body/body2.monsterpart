@@ -1,0 +1,9 @@
+{
+  "name" : "body2",
+  "category" : "bfharpychubsterblue",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body2.png"
+  }
+}

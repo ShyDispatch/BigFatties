@@ -1,0 +1,29 @@
+{
+  "kind" : "largefatswoosh",
+  "definition" : {
+    "duration" : 0.01,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "largefatswoosh2", "largefireswoosh2", "largefatswoosh2", "largefireswoosh2", "largefatswoosh2", "largefireswoosh2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "largefatswoosh1", "largefatswoosh2", "largefireswoosh2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "largefireswoosh4", "largefireswoosh4", "largefireswoosh4", "largefireswoosh4", "largefireswoosh4", "largefireswoosh4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

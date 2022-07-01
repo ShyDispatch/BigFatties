@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfhoney",
+  "rarity" : "Common",
+  "price" : 500,
+  "category" : "drink",
+  "inventoryIcon" : "bfhoney.png",
+  "description" : "Honey made from thick bee girls.",
+  "shortdescription" : "Bottled Honey",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 50
+    }
+  ] ],
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "emitters" : [ "drinking" ]
+}

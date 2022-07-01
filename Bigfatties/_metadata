@@ -1,0 +1,10 @@
+{
+  "version" : "0.6.1",
+  "author" : "ShyDispatch",
+  "description" : "A mod about big fatties. Adding in an armor set for each playable race. A craftable shop and weightscale can be found in the basic crafting menu for the basic sets. As well as various furniture and fattening tools. \n\nWith the quickbarmini mod. You can access a special ui that can offer many features. Dynamic weight gain, hitboxes, mobility hinderance, gurgling bellies, vore, and many more. Each one being able to be turned on or off to fit your preferences.  \n\nThe fat bodies will conflict heavily with race edits that drastically alter any of the main races. Keep that in mind. Only Avali are being officially supported with their own fat bodies.",
+  "name" : "Big Fatties",
+  "priority" : 999,
+  "friendlyName" : "Big Fatties",
+  "link" : "https://forum.weightgaming.com/t/starbound-mod-big-fatties/1649",
+  "includes" : ["StardustLib", "QuickbarMini"]
+}

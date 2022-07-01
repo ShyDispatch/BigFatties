@@ -1,0 +1,7 @@
+{
+	"name": "badgereset",
+	"defaultDuration": 1,
+	"scripts": [
+		"badgereset.lua"
+	]
+}

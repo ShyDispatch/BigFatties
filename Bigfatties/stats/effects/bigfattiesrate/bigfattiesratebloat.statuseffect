@@ -1,0 +1,11 @@
+{
+	"name": "bigfattiesratebloat",
+	"effectConfig": {
+		"type": "gainBloat",
+		"rate": 10
+	},
+	"defaultDuration": 5,
+	"scripts": [
+		"bigfattiesrate.lua"
+	]
+}

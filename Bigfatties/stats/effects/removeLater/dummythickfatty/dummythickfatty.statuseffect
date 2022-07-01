@@ -1,0 +1,9 @@
+{
+  "name" : "dummythickfatty",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "dummythickfatty.lua"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "bigfattiessoundhandler",
+  "defaultDuration" : 1,
+  "animationConfig" : "bigfattiessoundhandler.animation",
+  "scripts" : [
+    "bigfattiessoundhandler.lua"
+  ]
+}

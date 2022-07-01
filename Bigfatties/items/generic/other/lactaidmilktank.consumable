@@ -1,0 +1,21 @@
+{
+  "itemName": "lactaidmilktank",
+  "price": 2600,
+  "rarity": "legendary",
+  "category": "medicine",
+  "inventoryIcon": "lactaidmilktank.png",
+  "description": "A formulated stim that improves milk storage, with milk production like a Mooshi.",
+  "shortdescription": "LactAid Milk Tank",
+  "maxStack": 1,
+  "effects": [[
+      "lactaidmilktank",
+      {
+          "effect" : "bigfattiesmilk",
+          "duration" : 25
+      }
+  ]],
+  "emote": "",
+  "emitters": [
+    "stimuse"
+  ]
+}

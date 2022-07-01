@@ -1,0 +1,33 @@
+{
+  "objectName" : "bfbeedroneaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Not the most efficient flyer, it's a mystery how Bees have survived as a species.\"",
+  "shortdescription" : "Bee Drone Figurine",
+
+
+
+  "inventoryIcon" : "bfbeedroneaf.png",
+  "orientations" : [
+    {
+      "image" : "bfbeedroneaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "bfbeedroneaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

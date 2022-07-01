@@ -1,0 +1,8 @@
+{
+  "name" : "blobmaxhealthboost",
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost_remove.lua"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "bfblueberryballoon",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "price" : 10,  
+  "inventoryIcon" : "bfblueberryballoonicon.png",
+  "image" : "bfblueberryballoon.png",
+  "shortdescription" : "Blueberry Juice Balloon",
+  "description" : "A balloon filled up with blueberry juice.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "bfblueberryballoon",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

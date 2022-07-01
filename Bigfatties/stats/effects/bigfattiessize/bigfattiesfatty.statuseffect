@@ -1,0 +1,9 @@
+{
+	"name": "bigfattiesfatty",
+	"scripts": [
+		"bigfattiessize.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Fatty",
+	"icon": "/interface/statuses/bigfattiessize/bigfattiesfatty.png"
+}

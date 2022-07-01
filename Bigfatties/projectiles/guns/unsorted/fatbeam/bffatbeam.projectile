@@ -1,0 +1,23 @@
+{
+  "projectileName" : "bffatbeam",
+  "image" : "bffatbeam.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "fatplasma",
+  "pointLight" : false,
+  "flippable" : true,
+
+  "statusEffects" : [{"effect": "bigfattiesbloat", "duration": 30}],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 75,
+  "knockback" : 0,
+  "lightColor" : [105, 65, 72],
+  "fullbright" : true
+}

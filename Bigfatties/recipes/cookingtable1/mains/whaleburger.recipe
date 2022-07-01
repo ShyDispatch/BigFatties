@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "relish", "count" : 1 },
+    { "item" : "buttersnack", "count" : 1 },	
+    { "item" : "rawfish", "count" : 1 },
+    { "item" : "bread", "count" : 1 }
+  ],
+  "output" : { "item" : "whaleburger", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

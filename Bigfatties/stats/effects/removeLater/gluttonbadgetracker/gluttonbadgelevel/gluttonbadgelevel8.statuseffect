@@ -1,0 +1,12 @@
+{
+	"name": "gluttonbadgelevel8",
+	"effectConfig": {
+		"level": 8
+	},
+	"scripts": [
+		"gluttonbadgelevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Fatty",
+	"icon": "/interface/statuses/gluttonbadgelevel/gluttonbadgelevel8.png"
+}

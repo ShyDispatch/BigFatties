@@ -1,0 +1,12 @@
+{
+	"name": "gluttonbadgelevel5",
+	"effectConfig": {
+		"level": 5
+	},
+	"scripts": [
+		"gluttonbadgelevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Plump",
+	"icon": "/interface/statuses/gluttonbadgelevel/gluttonbadgelevel5.png"
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "bfsapmilkdeluxe",
+  "rarity" : "Common",
+  "price" : 7500,
+  "category" : "drink",
+  "inventoryIcon" : "bfsapmilkdeluxe.png",
+  "description" : "Only from the finest plant folks is this special, extra fattening drink a reality.",
+  "shortdescription" : "Chateau Sap Milk",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 960
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "bigfattiesplump",
+	"scripts": [
+		"bigfattiessize.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Plump",
+	"icon": "/interface/statuses/bigfattiessize/bigfattiesplump.png"
+}

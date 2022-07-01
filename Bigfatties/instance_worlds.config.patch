@@ -1,0 +1,25 @@
+[
+	{
+		"op": "add",
+		"path": "/fattiesbar",
+		"value": {
+			"type": "FloatingDungeon",
+			"dungeonWorld": "fattiesbar",
+			"seed": 1234,
+			"spawningEnabled": false,
+			"beamUpRule": "Anywhere",
+			"disableDeathDrops": true,
+			"worldProperties": {"nonCombat": true},
+			"skyParameters": {
+				"spaceLevel": 3000,
+				"ambientLightLevel": [141, 120, 169],
+				"skyType": "atmospheric",
+				"horizonImages": [],
+				"dayLength": 1153.36,
+				"surfaceLevel": 1200,
+				"seed": -5288806180628666923
+
+			}
+		}
+	}
+]

@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel6",
+	"effectConfig": {
+		"level": 6
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Extra Plump",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel6.png"
+}

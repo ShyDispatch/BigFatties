@@ -1,0 +1,22 @@
+{
+  "itemName" : "bframen",
+  "rarity" : "Common",
+  "price" : 160,
+  "category" : "preparedFood",
+  "inventoryIcon" : "bframen.png",
+  "description" : "Nothing like a bowl of classic noodles. Might be overly salty though.",
+  "shortdescription" : "Ramen Noodles",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    }
+  ] ], 
+  "foodValue": 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "bframen" ]
+}

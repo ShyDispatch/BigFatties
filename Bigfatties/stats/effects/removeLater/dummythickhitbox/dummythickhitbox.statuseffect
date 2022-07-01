@@ -1,0 +1,5 @@
+{
+	"name" : "dummythickhitbox",
+	"defaultDuration" : 1,
+	"scripts" : [ "dummythickhitbox.lua" ]
+}

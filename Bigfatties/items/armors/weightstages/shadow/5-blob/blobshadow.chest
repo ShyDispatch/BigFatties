@@ -1,0 +1,24 @@
+{
+  "itemName" : "blobshadowchest",
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestwear",
+  "description" : "This extra large shirt wraps a dark void around the wearer.",
+  "shortdescription" : "Dark XXL Shirt",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleevef.png"
+  },
+
+  "effectSources" : [ "shadowsmoke" ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "4fattymilkyoutfitbag",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Use this to open it and reveal its contents. How exciting!",
+  "shortdescription" : "XBusty Fat Outfit Bag",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "fattymilkyoutfitbagicon.png",
+  "animation" : "fattymilkyoutfitbag.animation",
+  "animationCustom" : {},
+  "scripts" : ["/scripts/outfitbag.lua"],
+
+  "itemTags" : [ "bigfatties" ],
+  
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+  
+  "outfitKey" : "fattymilky"
+}

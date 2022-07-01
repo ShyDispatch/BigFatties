@@ -1,0 +1,22 @@
+{
+  "itemName" : "passionpatty",
+  "rarity" : "Common",
+  "price" : 120,
+  "category" : "preparedFood",
+  "inventoryIcon" : "passionpatty.png",
+  "description" : "A minty chocolate miracle in your mouth! Made with passion. Best eaten in cold environments.",
+  "shortdescription" : "Mint Chocolate Patty",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 15
+    }
+  ] ],
+  "foodValue": 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 12,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4.0,
+  "learnBlueprintsOnPickup" : [ "passionpatty" ]
+}

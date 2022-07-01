@@ -1,0 +1,7 @@
+{
+	"name": "bigfattiesbloat",
+	"defaultDuration": 1,
+	"scripts": [
+		"bigfattiesbloat.lua"
+	]
+}

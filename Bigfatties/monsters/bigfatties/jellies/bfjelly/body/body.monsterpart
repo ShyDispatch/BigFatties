@@ -1,0 +1,9 @@
+{
+  "name" : "bfjelly",
+  "category" : "bfjelly",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "bfjelly.png"
+  }
+}

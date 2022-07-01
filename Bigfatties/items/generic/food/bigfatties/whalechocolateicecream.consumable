@@ -1,0 +1,21 @@
+{
+  "itemName" : "whalechocolateicecream",
+  "rarity" : "Common",
+  "price" : 195,
+  "category" : "preparedFood",
+  "inventoryIcon" : "whalechocolateicecream.png",
+  "description" : "With the standard of chocolate. Sweet fat has never tasted so good.",
+  "shortdescription" : "Chocolate Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue": 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0
+}

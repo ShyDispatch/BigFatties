@@ -1,0 +1,26 @@
+{
+  "itemName" : "greasepizza",
+  "rarity" : "Legendary",
+  "price" : 925,
+  "category" : "preparedFood",
+  "inventoryIcon" : "greasepizza.png",
+  "description" : "A whole greased soaked pizza! Are you going to pig out?",
+  "shortdescription" : "Greasy Pizza",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 2800
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 3200
+    }
+  ] ],
+  "foodValue": 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "learnBlueprintsOnPickup" : [ "greasepizzaslice" ]
+}

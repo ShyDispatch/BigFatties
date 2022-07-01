@@ -1,0 +1,63 @@
+[
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfdonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfchocodonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfcakedonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfglazeddonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfchocoglazeddonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfjellydonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfbostondonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfspiderdonut" }
+},
+
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfdevildonut" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfzebradonut" }
+  }
+]

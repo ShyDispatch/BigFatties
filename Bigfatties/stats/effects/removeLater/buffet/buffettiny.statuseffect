@@ -1,0 +1,9 @@
+{
+  "name" : "buffettiny",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+    "scripts" : [
+    "buffettiny.lua"
+  ]
+}

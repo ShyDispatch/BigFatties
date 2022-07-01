@@ -1,0 +1,26 @@
+[
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "goldencola" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bloatcolavintage" }
+},
+    {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "bfdandelionrootpop" }
+},
+  {
+    "op":"add",
+    "path": "/interactData/items/-",
+    "value":
+      { "item" : "cowmilkdeluxe" }
+  }
+]

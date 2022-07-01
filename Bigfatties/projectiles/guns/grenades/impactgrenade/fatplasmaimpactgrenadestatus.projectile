@@ -1,0 +1,21 @@
+{
+  "projectileName" : "fatplasmaimpactgrenadestatus",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 3,
+  "damageKindImage" : "faticon.png",
+  "pointLight" : true,
+  "lightColor" : [105, 65, 72],
+  "image" : "fatplasmaimpactgrenade.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fatexplosionknockbackstatus.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "fatplasma"
+}

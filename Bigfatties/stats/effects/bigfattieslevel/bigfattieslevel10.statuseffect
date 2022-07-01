@@ -1,0 +1,12 @@
+{
+	"name": "bigfattieslevel10",
+	"effectConfig": {
+		"level": 10
+	},
+	"scripts": [
+		"bigfattieslevel.lua"
+	],
+	"defaultDuration": 100,
+	"label": "Immobile",
+	"icon": "/interface/statuses/bigfattieslevel/bigfattieslevel10.png"
+}

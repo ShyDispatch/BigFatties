@@ -1,0 +1,23 @@
+{
+  "itemName" : "mooshipendant",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Farmers often use these for keeping track of mooshis. You're not going to wear it, are you?",
+  "shortdescription" : "Mooshi Cowbell",
+  "inventoryIcon" : "mooshipendant.png",
+  "category" : "artifact",
+
+  "tooltipKind": "accessory",
+
+  "accessoryType" : "pendant",
+
+  "stats": [
+    {"name": "absorption", "modifier": 0.25},
+    {"name": "breastCapacity", "modifier": 3},
+    {"name": "breastProduction", "modifier": 0.5}
+  ],
+
+  "builder" : "/items/buildscripts/buildaccessory.lua",
+  "builderConfig" : {}
+}

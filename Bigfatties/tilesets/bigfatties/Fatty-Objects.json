@@ -1,0 +1,24 @@
+{
+  "margin" : 0,
+  "name" : "bigfatties/Fat-Objects",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 80,
+  "tileheight" : 44,
+  "tileproperties" : {
+    "0" : {
+      "//name" : "dripdispatch",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "dripdispatch",
+      "tilesetDirection" : "right"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "..\/..\/..\/..\/tiled\/bigfatties\/objects\/dripdispatch.png"
+    }
+  },
+  "tilewidth" : 48
+}
